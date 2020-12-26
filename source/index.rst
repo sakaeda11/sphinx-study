@@ -8,9 +8,9 @@ Welcome to sphinx-study's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents:   
 
-
+   first-page
 
 Indices and tables
 ==================

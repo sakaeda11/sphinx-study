@@ -1,2 +1,4 @@
 .DS_Store
 /sphinx-study.pdf
+
+source/_build/
