@@ -10,7 +10,7 @@ Welcome to sphinx-study's documentation!
    :maxdepth: 2
    :caption: Contents:   
 
-   first-page
+   1.chapter/first-page
 
 Indices and tables
 ==================
