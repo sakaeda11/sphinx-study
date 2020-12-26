@@ -11,4 +11,4 @@ make latexpdf
 
 3. See the result
 
-./build/latex/sphinx-study.pdf
+[sphinx-study.pdf](build/latex/sphinx-study.pdf)
