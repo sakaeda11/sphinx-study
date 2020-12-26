@@ -9,6 +9,13 @@
 make latexpdf
 ```
 
+or
+
+```
+make html
+```
+
 3. See the result
 
 [sphinx-study.pdf](build/latex/sphinx-study.pdf)
+[index.html](build/html/index.html)
