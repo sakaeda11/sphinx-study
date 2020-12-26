@@ -31,8 +31,8 @@ jobs:
       - run: sudo apt-get install python3-sphinx  
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Set up sphinx
+        run: sudo apt -y install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-lang-japanese texlive-lang-cjk latexmk
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
