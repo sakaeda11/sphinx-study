@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2020.12.20)  26 DEC 2020 12:40
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2020.12.20)  27 DEC 2020 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -687,7 +687,12 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 23.90964pt on input line 53.
 
-(./sphinx-study.toc)
+(./sphinx-study.toc
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 2.
+)
 \tf@toc=\write6
 \openout6 = `sphinx-study.toc'.
 
@@ -717,6 +722,26 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 59.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 59.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 62.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 62.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 62.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 62.
+LaTeX Font Info:    Font shape `JT1/gt/b/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/bx/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 62.
+LaTeX Font Info:    Font shape `JY1/gt/b/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/bx/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 62.
 [1
 
 ] [2
@@ -724,21 +749,21 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 ]
 第2章
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-6.
+7.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 (./sphinx-study.ind) [3] (./sphinx-study.aux)
 Package rerunfilecheck Info: File `sphinx-study.out' has not changed.
-(rerunfilecheck)             Checksum: B4AA1F56D3AE1F6DA632CFBAA52CE37D;161.
+(rerunfilecheck)             Checksum: 3CC7629A8B789DBBDD468FC3529B88EF;223.
  ) 
 Here is how much of TeX's memory you used:
- 10004 strings out of 479887
- 145695 string characters out of 5883000
- 472251 words of memory out of 5000000
- 27067 multiletter control sequences out of 15000+600000
- 436649 words of font info for 94 fonts, out of 8000000 for 9000
+ 10030 strings out of 479887
+ 146050 string characters out of 5883000
+ 472410 words of memory out of 5000000
+ 27088 multiletter control sequences out of 15000+600000
+ 443699 words of font info for 109 fonts, out of 8000000 for 9000
  935 hyphenation exceptions out of 8191
  80i,6n,85p,254b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sphinx-study.dvi (7 pages, 4108 bytes).
+Output written on sphinx-study.dvi (7 pages, 5112 bytes).
