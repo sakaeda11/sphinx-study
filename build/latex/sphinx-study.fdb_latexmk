@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1609061459 "sphinx-study.dvi" "sphinx-study.pdf" "sphinx-study" 1609061460
-  "sphinx-study.dvi" 1609061459 30256 973a66853d9df8ffa0a3a3939d4453f5 "latex"
+["dvipdf"] 1609067042 "sphinx-study.dvi" "sphinx-study.pdf" "sphinx-study" 1609067043
+  "sphinx-study.dvi" 1609067042 31524 c52cb8aadd35421d6aea7bd4007743f7 "latex"
   (generated)
   "sphinx-study.pdf"
-["latex"] 1609061458 "sphinx-study.tex" "sphinx-study.dvi" "sphinx-study" 1609061460
+["latex"] 1609067041 "sphinx-study.tex" "sphinx-study.dvi" "sphinx-study" 1609067043
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/courier/pcrb8t.tfm" 1136768653 1384 87406e4336af44af883a035f17f319d9 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm" 1136768653 1384 4632f5e54900a7dadbb83f555bc61e56 ""
@@ -117,25 +117,25 @@
   "/usr/local/texlive/2020/texmf-var/web2c/eptex/platex.fmt" 1608445226 2604252 3a25f8933c82328dae1589e0a4860d8d ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "footnotehyper-sphinx.sty" 1605190909 8888 1bbd7bdeae8c8bed1d10d551bddb1cc9 ""
-  "sphinx-study.aux" 1609061459 2044 51ef532f512147a301e03a52c0dda8ce "latex"
+  "sphinx-study.aux" 1609067042 2477 b8cf8b6c034a7ffb015a134d259f3fea "latex"
   "sphinx-study.ind" 1609059345 0 d41d8cd98f00b204e9800998ecf8427e "makeindex sphinx-study.idx"
-  "sphinx-study.out" 1609061459 298 863ee8b04c5c66d839fd27702c1b5169 "latex"
-  "sphinx-study.tex" 1609061458 12154 df4e900c5ee627a764a753356bac6c24 ""
-  "sphinx-study.toc" 1609061459 326 d8be028196941f5d28729adb136c1d4a "latex"
+  "sphinx-study.out" 1609067042 364 3c5dc975740e720b572af3fcb6482d90 "latex"
+  "sphinx-study.tex" 1609067038 12321 d553ba2049b2d4be780256836dcff11c ""
+  "sphinx-study.toc" 1609067042 419 49e31ff3c8f3166c4d307088dbb8db51 "latex"
   "sphinx.sty" 1605190909 82250 00bd36f302b7cc8960761f445d02b13e ""
-  "sphinxhighlight.sty" 1609061458 8137 38a433148fcb7611515a989ff1750dd5 ""
+  "sphinxhighlight.sty" 1609067038 8137 38a433148fcb7611515a989ff1750dd5 ""
   "sphinxmanual.cls" 1605190909 4236 124cd90deb92742b5d3922bfc2cd70c0 ""
-  "sphinxmessages.sty" 1609061458 696 5bb1165146ddbf027d24a235a3c6e53f ""
+  "sphinxmessages.sty" 1609067038 696 5bb1165146ddbf027d24a235a3c6e53f ""
   "sphinxmulticell.sty" 1605190909 14606 0b6edc2b1a83546ed92026d1f6a311b5 ""
   (generated)
-  "sphinx-study.idx"
-  "sphinx-study.log"
-  "sphinx-study.toc"
-  "sphinx-study.aux"
-  "sphinx-study.out"
   "sphinx-study.dvi"
-["makeindex sphinx-study.idx"] 1609059345 "sphinx-study.idx" "sphinx-study.ind" "sphinx-study" 1609061460
-  "sphinx-study.idx" 1609061459 0 d41d8cd98f00b204e9800998ecf8427e "latex"
+  "sphinx-study.log"
+  "sphinx-study.out"
+  "sphinx-study.aux"
+  "sphinx-study.idx"
+  "sphinx-study.toc"
+["makeindex sphinx-study.idx"] 1609059345 "sphinx-study.idx" "sphinx-study.ind" "sphinx-study" 1609067043
+  "sphinx-study.idx" 1609067042 0 d41d8cd98f00b204e9800998ecf8427e "latex"
   (generated)
   "sphinx-study.ind"
   "sphinx-study.ilg"

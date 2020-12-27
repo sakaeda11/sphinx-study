@@ -1,4 +1,5 @@
-\contentsline {chapter}{\numberline {第1章}This page is about Directive}{4}{chapter.1}%
-\contentsline {section}{\numberline {1.1}This is Sub page 1}{4}{section.1.1}%
-\contentsline {section}{\numberline {1.2}This is Sub page 1}{4}{section.1.2}%
-\contentsline {chapter}{\numberline {第2章}Indices and tables}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {第1章}This page is about Basic syntax}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {第2章}This page is about Directive}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}This is Sub page 1}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}This is Sub page 1}{4}{section.2.2}%
+\contentsline {chapter}{\numberline {第3章}Indices and tables}{5}{chapter.3}%
