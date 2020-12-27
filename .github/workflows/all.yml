@@ -1,6 +1,8 @@
-# This is a basic workflow to help you get started with Actions
+# On push
+# 1.Build html&pdf
+# 2.Store the files on 
 
-name: CI
+name: Build Document
 
 # Controls when the action will run. 
 on:
@@ -33,6 +35,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Set up sphinx
         run: sudo apt -y install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-lang-japanese texlive-lang-cjk latexmk
+
+      - name: Where am I
+        run: pwd
 
       # make html
       - name: make html
