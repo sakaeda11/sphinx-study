@@ -37,7 +37,7 @@ jobs:
         run: sudo apt -y install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-lang-japanese texlive-lang-cjk latexmk
 
       - name: Where am I
-        run: pwd
+        run: pwd & ls
 
       # make html
       - name: make html
