@@ -36,9 +36,6 @@ jobs:
       - name: Set up sphinx
         run: sudo apt -y install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-lang-japanese texlive-lang-cjk latexmk
 
-      - name: Where am I
-        run: pwd & ls
-
       # make html
       - name: make html
         run: make html
@@ -46,3 +43,9 @@ jobs:
       # make pdf
       - name: make latexpdf
         run: make latexpdf
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
