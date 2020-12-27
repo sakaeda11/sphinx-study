@@ -5,7 +5,7 @@ Sphinx sample project
    :maxdepth: 2
    :caption: 目次
 
-   1.chapter/primer
+   1.chapter/basic_syntax
    2.chapter/directive
 
 Indices and tables
