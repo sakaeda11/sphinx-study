@@ -34,10 +34,10 @@ jobs:
       - name: Set up sphinx
         run: sudo apt -y install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-lang-japanese texlive-lang-cjk latexmk
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-
       # make html
+      - name: make html
+        run: make html
+      
+      # make pdf
+      - name: make latexpdf
+        run: make latexpdf
