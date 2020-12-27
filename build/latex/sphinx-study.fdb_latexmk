@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1609051332 "sphinx-study.dvi" "sphinx-study.pdf" "sphinx-study" 1609051333
+["dvipdf"] 1609051332 "sphinx-study.dvi" "sphinx-study.pdf" "sphinx-study" 1609054321
   "sphinx-study.dvi" 1609051332 5112 15827f9cbd1bb7e1ff2bb60e1274966d "latex"
   (generated)
   "sphinx-study.pdf"
-["latex"] 1609051331 "sphinx-study.tex" "sphinx-study.dvi" "sphinx-study" 1609051333
+["latex"] 1609051331 "sphinx-study.tex" "sphinx-study.dvi" "sphinx-study" 1609054321
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm" 1136768653 6628 34c39492c0adc454c1c199922bba8363 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvbo8t.tfm" 1136768653 6880 fe6c7967f27585f6fa9876f3af14edd2 ""
@@ -118,19 +118,19 @@
   "sphinx-study.tex" 1609051327 1724 4fe3adec157e115619fbbb2f27719b23 ""
   "sphinx-study.toc" 1609051332 237 d5c94330662717d920637894c7dcf00c "latex"
   "sphinx.sty" 1605190909 82250 00bd36f302b7cc8960761f445d02b13e ""
-  "sphinxhighlight.sty" 1609051327 8137 38a433148fcb7611515a989ff1750dd5 ""
+  "sphinxhighlight.sty" 1609054320 8137 38a433148fcb7611515a989ff1750dd5 ""
   "sphinxmanual.cls" 1605190909 4236 124cd90deb92742b5d3922bfc2cd70c0 ""
-  "sphinxmessages.sty" 1609051327 696 5bb1165146ddbf027d24a235a3c6e53f ""
+  "sphinxmessages.sty" 1609054320 696 5bb1165146ddbf027d24a235a3c6e53f ""
   "sphinxmulticell.sty" 1605190909 14606 0b6edc2b1a83546ed92026d1f6a311b5 ""
   (generated)
-  "sphinx-study.log"
   "sphinx-study.toc"
-  "sphinx-study.aux"
   "sphinx-study.idx"
-  "sphinx-study.out"
   "sphinx-study.dvi"
-["makeindex sphinx-study.idx"] 1608948555 "sphinx-study.idx" "sphinx-study.ind" "sphinx-study" 1609051333
+  "sphinx-study.aux"
+  "sphinx-study.log"
+  "sphinx-study.out"
+["makeindex sphinx-study.idx"] 1608948555 "sphinx-study.idx" "sphinx-study.ind" "sphinx-study" 1609054321
   "sphinx-study.idx" 1609051331 0 d41d8cd98f00b204e9800998ecf8427e "latex"
   (generated)
-  "sphinx-study.ind"
   "sphinx-study.ilg"
+  "sphinx-study.ind"

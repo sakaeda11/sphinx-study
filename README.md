@@ -17,5 +17,5 @@ make html
 
 3. See the result
 
-- pdf:[sphinx-study.pdf](https://sakaeda11.github.io/sphinx-study/build/latex/sphinx-study.pdf)
-- html:[index.html](https://sakaeda11.github.io/sphinx-study/build/html/index.html)
+- pdf:[sphinx-study.pdf](https://sakaeda11.github.io/sphinx-study/latex/sphinx-study.pdf)
+- html:[index.html](https://sakaeda11.github.io/sphinx-study/html/)
