@@ -63,3 +63,9 @@ html_static_path = ['_static']
 
 # master file is index.rst
 master_doc = 'index'
+
+
+# -- latex setting -----------------------------------------------------------
+latex_elements = {
+  'extraclassoptions': 'openany,oneside'
+}
