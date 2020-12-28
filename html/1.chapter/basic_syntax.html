@@ -242,7 +242,6 @@ item uses two lines.</li>
 <h3>csv-tableディレクティブ表記<a class="headerlink" href="#csv-table" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">csv</span><span class="o">-</span><span class="n">table</span><span class="p">::</span>
    <span class="p">:</span><span class="n">header</span><span class="p">:</span> <span class="s2">&quot;AAA&quot;</span><span class="p">,</span> <span class="s2">&quot;BBB&quot;</span><span class="p">,</span> <span class="s2">&quot;CCC&quot;</span>
-   <span class="p">:</span><span class="n">width</span><span class="p">:</span> <span class="mi">80</span><span class="o">%</span>
    <span class="p">:</span><span class="n">align</span><span class="p">:</span> <span class="n">left</span>
 
    <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span>
@@ -250,6 +249,29 @@ item uses two lines.</li>
 </pre></div>
 </div>
 <p>↓</p>
+<table border="1" class="docutils align-left">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">AAA</th>
+<th class="head">BBB</th>
+<th class="head">CCC</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>a</td>
+<td>b</td>
+<td>c</td>
+</tr>
+<tr class="row-odd"><td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="list-table">
 <h3>list-tableディレクティブ表記<a class="headerlink" href="#list-table" title="このヘッドラインへのパーマリンク">¶</a></h3>

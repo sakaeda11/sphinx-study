@@ -195,7 +195,6 @@ csv-tableディレクティブ表記
 
    .. csv-table::
       :header: "AAA", "BBB", "CCC"
-      :width: 80%
       :align: left
 
       a,b,c
@@ -205,7 +204,6 @@ csv-tableディレクティブ表記
 
 .. csv-table::
    :header: "AAA", "BBB", "CCC"
-   :width: 80%
    :align: left
 
    a,b,c
