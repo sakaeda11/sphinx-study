@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2020.12.20)  27 DEC 2020 20:04
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2020.12.20)  28 DEC 2020 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -686,9 +686,9 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
 (./sphinx-study.toc
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 3.
+(Font)              scaled to size 6.72699pt on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 3.
+(Font)              scaled to size 4.805pt on input line 2.
 )
 \tf@toc=\write6
 \openout6 = `sphinx-study.toc'.
@@ -720,101 +720,135 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 19.9311pt on input line 59.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 63.
+(Font)              scaled to size 13.83836pt on input line 62.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 63.
+(Font)              scaled to size 13.83836pt on input line 62.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 63.
+(Font)              scaled to size 13.83836pt on input line 62.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 63.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 63
+(Font)              scaled to size 13.83836pt on input line 62.
+LaTeX Font Info:    Font shape `JT1/gt/b/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/bx/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 62.
+LaTeX Font Info:    Font shape `JY1/gt/b/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/bx/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 62.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 66.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 66.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 66.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 66.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 66
 .
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 63.
+(Font)              scaled to size 4.805pt on input line 66.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 63.
-LaTeX Font Info:    Font shape `JT1/gt/b/n' in size <9> not available
-(Font)              Font shape `JT1/gt/bx/n' tried instead on input line 64.
-LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 64.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 64.
-LaTeX Font Info:    Font shape `JY1/gt/b/n' in size <9> not available
-(Font)              Font shape `JY1/gt/bx/n' tried instead on input line 64.
-LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 64.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 64.
-LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 71.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 71.
-LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 71.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 71.
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 71.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
+(Font)              scaled to size 4.805pt on input line 66.
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 6
 7.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+
+Package textcomp Warning: Symbol \textasciigrave not provided by
+(textcomp)                font family pcr in TS1 encoding.
+(textcomp)                Default family used instead on input line 67.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
+7.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+67.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+Package textcomp Warning: Symbol \textasciigrave not provided by
+(textcomp)                font family pcr in TS1 encoding.
+(textcomp)                Default family used instead on input line 73.
+
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 79.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 79.
+LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 79.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 79.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 79.
+File: section-sample.png Graphic file (type bmp)
+<section-sample.png>
+[1
+
+
+]
+LaTeX Font Info:    Font shape `JT1/gt/b/n' in size <9> not available
+(Font)              Font shape `JT1/gt/bx/n' tried instead on input line 119.
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <9> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 119.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 119.
+LaTeX Font Info:    Font shape `JY1/gt/b/n' in size <9> not available
+(Font)              Font shape `JY1/gt/bx/n' tried instead on input line 119.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <9> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 119.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 119.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+32.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [1
-
-
-] [2]
-LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 298.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 298.
-LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 298.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 298.
-
+) [2]
 [3]
-第2章
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 306.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 306.
+(Font)              scaled to size 11.53198pt on input line 206.
+ [4] [5]
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 437.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 306.
+(Font)              scaled to size 9.60999pt on input line 437.
+LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 437.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 306.
-LaTeX Font Info:    Font shape `JT1/gt/b/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/bx/n' tried instead on input line 306.
-LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 306.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 306.
-LaTeX Font Info:    Font shape `JY1/gt/b/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/bx/n' tried instead on input line 306.
-LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 306.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 306.
-[4
+(Font)              scaled to size 9.60999pt on input line 437.
+File: sample1.jpg Graphic file (type bmp)
+<sample1.jpg>
+ [6]
+第2章
+[7
 
 ]
 第3章
-(./sphinx-study.ind) [5
+(./sphinx-study.ind) [8
 
 ] (./sphinx-study.aux)
 Package rerunfilecheck Info: File `sphinx-study.out' has not changed.
-(rerunfilecheck)             Checksum: 3C5DC975740E720B572AF3FCB6482D90;364.
+(rerunfilecheck)             Checksum: ABF18415A95FF7F34D3EFD22065F19F1;751.
  ) 
 Here is how much of TeX's memory you used:
- 10109 strings out of 479887
- 147073 string characters out of 5883000
- 548403 words of memory out of 5000000
- 27160 multiletter control sequences out of 15000+600000
- 450883 words of font info for 122 fonts, out of 8000000 for 9000
+ 10197 strings out of 479887
+ 149246 string characters out of 5883000
+ 542082 words of memory out of 5000000
+ 27229 multiletter control sequences out of 15000+600000
+ 454033 words of font info for 128 fonts, out of 8000000 for 9000
  935 hyphenation exceptions out of 8191
- 80i,14n,85p,1094b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 80i,14n,85p,1094b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sphinx-study.dvi (7 pages, 31524 bytes).
+Output written on sphinx-study.dvi (10 pages, 46264 bytes).
