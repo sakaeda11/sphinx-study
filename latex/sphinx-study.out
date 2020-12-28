@@ -1,5 +1,12 @@
 \BOOKMARK [0][-]{chapter.1}{This page is about Basic syntax}{}% 1
-\BOOKMARK [0][-]{chapter.2}{This page is about Directive}{}% 2
-\BOOKMARK [1][-]{section.2.1}{This is Sub page 1}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{This is Sub page 1}{chapter.2}% 4
-\BOOKMARK [0][-]{chapter.3}{Indices and tables}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Sections}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{List}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Literal blocks}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Doctest blocks}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Tables}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.6}{Hyperlinks}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.7}{Images}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{This page is about Directive}{}% 9
+\BOOKMARK [1][-]{section.2.1}{This is Sub page 1}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{This is Sub page 1}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Indices and tables}{}% 12

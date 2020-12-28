@@ -39,7 +39,7 @@
 
 
 \title{sphinx-study}
-\date{2020年12月27日}
+\date{2020年12月28日}
 \release{1.0.0}
 \author{}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -56,8 +56,67 @@
 
 \chapter{This page is about Basic syntax}
 \label{\detokenize{1.chapter/basic_syntax:this-page-is-about-basic-syntax}}\label{\detokenize{1.chapter/basic_syntax:sphinx-sample-project}}\label{\detokenize{1.chapter/basic_syntax::doc}}
-\sphinxstylestrong{List}
 
+\section{Sections}
+\label{\detokenize{1.chapter/basic_syntax:sections}}
+見出し文字の下に以下の記号文字のいずれかを**見出し文字の数より多く**並べる（アンダーラインとして並べる）ことで、ドキュメントの各セクション（見出し）を作成できます。
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+! \PYGZdq{} \PYGZsh{} \PYGZdl{} \PYGZpc{} \PYGZam{} \PYGZsq{} ( ) * + , \PYGZhy{} . / : ; \PYGZlt{} = \PYGZgt{} ? @ [ \PYGZbs{} ] \PYGZca{} \PYGZus{} {}` \PYGZob{} \textbar{} \PYGZcb{} \PYGZti{}
+\end{sphinxVerbatim}
+
+これらの内特に以下を利用することが推奨されます。
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+= \PYGZhy{} {}` : . \PYGZsq{} \PYGZdq{} \PYGZti{} \PYGZca{} \PYGZus{} * + \PYGZsh{}
+\end{sphinxVerbatim}
+
+例:
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+\PYG{n}{大見出し}
+\PYG{c+c1}{\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}\PYGZsh{}}
+
+\PYG{n}{本文}
+
+\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}
+\PYG{n}{中見出し}
+\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}\PYG{o}{*}
+
+\PYG{n}{本文}
+
+\PYG{o}{==}\PYG{o}{==}\PYG{o}{==}\PYG{o}{==}
+\PYG{n}{小見出し}
+\PYG{o}{==}\PYG{o}{==}\PYG{o}{==}\PYG{o}{==}
+
+\PYG{n}{本文}
+\end{sphinxVerbatim}
+
+↓
+
+\noindent\sphinxincludegraphics{{section-sample}.png}
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+注意：
+・ 見栄えを良くするためにオーバーラインを書くこともできます。（見出しの上に並べる事ができる）
+・ オーバーラインを記述する場合はアンダーラインと同じ文字数で書く必要があるようです。
+・  Section用文字は以下の順序で利用することが推奨されているようです
+  1. \PYGZsh{}
+  2. *
+  3. =
+  4. \PYGZhy{}
+  5. \PYGZca{}
+  6. \PYGZdq{}
+\end{sphinxVerbatim}
+
+
+\section{List}
+\label{\detokenize{1.chapter/basic_syntax:list}}
 \fvset{hllines={, ,}}%
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \PYG{o}{*} \PYG{n}{This} \PYG{o+ow}{is} \PYG{n}{a} \PYG{n}{bulleted} \PYG{n+nb}{list}\PYG{o}{.}
@@ -96,8 +155,9 @@ It has two items too.
 
 \end{enumerate}
 
-\sphinxstylestrong{Literal blocks}
 
+\section{Literal blocks}
+\label{\detokenize{1.chapter/basic_syntax:literal-blocks}}
 \fvset{hllines={, ,}}%
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \PYG{n}{This} \PYG{o+ow}{is} \PYG{n}{a} \PYG{n}{normal} \PYG{n}{text} \PYG{n}{paragraph}\PYG{o}{.} \PYG{n}{The} \PYG{n+nb}{next} \PYG{n}{paragraph} \PYG{o+ow}{is} \PYG{n}{a} \PYG{n}{code} \PYG{n}{sample}\PYG{p}{:}\PYG{p}{:}
@@ -124,13 +184,16 @@ This is a normal text paragraph. The next paragraph is a code sample:
 
 This is a normal text paragraph again.
 
-\sphinxstylestrong{Doctest blocks}
 
+\section{Doctest blocks}
+\label{\detokenize{1.chapter/basic_syntax:doctest-blocks}}
 \fvset{hllines={, ,}}%
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \PYG{g+gp}{\PYGZgt{}\PYGZgt{}\PYGZgt{} }\PYG{l+m+mi}{1} \PYG{o}{+} \PYG{l+m+mi}{1}
 \PYG{g+go}{2}
 \end{sphinxVerbatim}
+
+のように \sphinxstylestrong{\textgreater{}\textgreater{}\textgreater{}} と記述するとデコレーションされます
 
 ↓
 
@@ -140,8 +203,14 @@ This is a normal text paragraph again.
 \PYG{g+go}{2}
 \end{sphinxVerbatim}
 
-\sphinxstylestrong{Tables}
 
+\section{Tables}
+\label{\detokenize{1.chapter/basic_syntax:tables}}
+テーブルの表記方法にはいくつかあります。
+
+
+\subsection{グリッドテーブル表記}
+\label{\detokenize{1.chapter/basic_syntax:id1}}
 \fvset{hllines={, ,}}%
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \PYG{o}{+}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{+}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{+}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{+}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{\PYGZhy{}}\PYG{o}{+}
@@ -192,6 +261,9 @@ body row 2
 \par
 \sphinxattableend\end{savenotes}
 
+
+\subsection{シンプルテーブル表記}
+\label{\detokenize{1.chapter/basic_syntax:id2}}
 \fvset{hllines={, ,}}%
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \PYG{o}{==}\PYG{o}{==}\PYG{o}{=}  \PYG{o}{==}\PYG{o}{==}\PYG{o}{=}  \PYG{o}{==}\PYG{o}{==}\PYG{o}{==}\PYG{o}{=}
@@ -251,13 +323,15 @@ True
 \par
 \sphinxattableend\end{savenotes}
 
-\sphinxurl{https://docutils.sourceforge.io/docs/ref/rst/directives.html\#csv-table}
 
+\subsection{csv-tableディレクティブ表記}
+\label{\detokenize{1.chapter/basic_syntax:csv-table}}
 \fvset{hllines={, ,}}%
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \PYG{o}{.}\PYG{o}{.} \PYG{n}{csv}\PYG{o}{\PYGZhy{}}\PYG{n}{table}\PYG{p}{:}\PYG{p}{:}
    \PYG{p}{:}\PYG{n}{header}\PYG{p}{:} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{AAA}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{BBB}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{CCC}\PYG{l+s+s2}{\PYGZdq{}}
-   \PYG{p}{:}\PYG{n}{widths}\PYG{p}{:} \PYG{l+m+mi}{15}\PYG{p}{,} \PYG{l+m+mi}{10}\PYG{p}{,} \PYG{l+m+mi}{30}
+   \PYG{p}{:}\PYG{n}{width}\PYG{p}{:} \PYG{l+m+mi}{80}\PYG{o}{\PYGZpc{}}
+   \PYG{p}{:}\PYG{n}{align}\PYG{p}{:} \PYG{n}{left}
 
    \PYG{n}{a}\PYG{p}{,}\PYG{n}{b}\PYG{p}{,}\PYG{n}{c}
    \PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{3}
@@ -266,53 +340,106 @@ True
 ↓
 
 
+\subsection{list-tableディレクティブ表記}
+\label{\detokenize{1.chapter/basic_syntax:list-table}}
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+.. list\PYGZhy{}table:: Frozen Delights!
+   :widths: 15 10 30
+   :header\PYGZhy{}rows: 1
+
+   * \PYGZhy{} Treat
+   \PYGZhy{} Quantity
+   \PYGZhy{} Description
+   * \PYGZhy{} Albatross
+   \PYGZhy{} 2.99
+   \PYGZhy{} On a stick!
+   * \PYGZhy{} Crunchy Frog
+   \PYGZhy{} 1.49
+   \PYGZhy{} If we took the bones out, it wouldn\PYGZsq{}t be
+      crunchy, now would it?
+   * \PYGZhy{} Gannet Ripple
+   \PYGZhy{} 1.99
+   \PYGZhy{} On a stick!
+\end{sphinxVerbatim}
+
+↓
+
+
 \begin{savenotes}\sphinxattablestart
 \centering
+\sphinxcapstartof{table}
+\sphinxcaption{Frozen Delights!}\label{\detokenize{1.chapter/basic_syntax:id3}}
+\sphinxaftercaption
 \begin{tabular}[t]{|\X{15}{55}|\X{10}{55}|\X{30}{55}|}
 \hline
 \sphinxstylethead{\sphinxstyletheadfamily 
-AAA
+Treat
 \unskip}\relax &\sphinxstylethead{\sphinxstyletheadfamily 
-BBB
+Quantity
 \unskip}\relax &\sphinxstylethead{\sphinxstyletheadfamily 
-CCC
+Description
 \unskip}\relax \\
 \hline
-a
+Albatross
 &
-b
+2.99
 &
-c
+On a stick!
 \\
 \hline
-1
+Crunchy Frog
 &
-2
+1.49
 &
-3
+If we took the bones out, it wouldn't be
+crunchy, now would it?
+\\
+\hline
+Gannet Ripple
+&
+1.99
+&
+On a stick!
 \\
 \hline
 \end{tabular}
 \par
 \sphinxattableend\end{savenotes}
 
-\sphinxstylestrong{Hyperlinks}
 
+\section{Hyperlinks}
+\label{\detokenize{1.chapter/basic_syntax:hyperlinks}}
 This is a paragraph that contains \sphinxhref{https://domain.invalid/}{a link}.
 
 \sphinxtitleref{Link text \textless{}https://domain.invalid/\textgreater{}}
 
-\sphinxstylestrong{Sections}
+
+\section{Images}
+\label{\detokenize{1.chapter/basic_syntax:images}}
+画像を利用したい場合はimageディレクティブを利用します。
+画像の場所は、該当のrstファイルからの相対パスと、トップのソースディレクトリからの絶対パスのいずれも利用できます。
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{.}\PYG{o}{.} \PYG{n}{image}\PYG{p}{:}\PYG{p}{:} \PYG{n}{imgs}\PYG{o}{/}\PYG{n}{sample1}\PYG{o}{.}\PYG{n}{jpg}
+   \PYG{p}{:}\PYG{n}{width}\PYG{p}{:} \PYG{l+m+mi}{50} \PYG{o}{\PYGZpc{}}
+   \PYG{p}{:}\PYG{n}{align}\PYG{p}{:} \PYG{n}{left}
+\end{sphinxVerbatim}
+
+↓
+
+\noindent{\sphinxincludegraphics[width=0.500\linewidth]{{sample1}.jpg}\hspace*{\fill}}
 
 
 \chapter{This page is about Directive}
-\label{\detokenize{2.chapter/directive:this-page-is-about-directive}}\label{\detokenize{2.chapter/directive::doc}}
+\label{\detokenize{2.chapter/directive::doc}}\label{\detokenize{2.chapter/directive:this-page-is-about-directive}}
 
 \section{This is Sub page 1}
-\label{\detokenize{2.chapter/subpage/sub1:this-is-sub-page-1}}\label{\detokenize{2.chapter/subpage/sub1::doc}}
+\label{\detokenize{2.chapter/subpage/sub1::doc}}\label{\detokenize{2.chapter/subpage/sub1:this-is-sub-page-1}}
 
 \section{This is Sub page 1}
-\label{\detokenize{2.chapter/subpage/sub2:this-is-sub-page-1}}\label{\detokenize{2.chapter/subpage/sub2::doc}}
+\label{\detokenize{2.chapter/subpage/sub2::doc}}\label{\detokenize{2.chapter/subpage/sub2:this-is-sub-page-1}}
 \begin{sphinxadmonition}{note}{注釈:}
 ".. note::"というディレクティブを記述した場合このようになります。
 \end{sphinxadmonition}

@@ -42,7 +42,53 @@
             
   <div class="section" id="this-page-is-about-basic-syntax">
 <h1>This page is about Basic syntax<a class="headerlink" href="#this-page-is-about-basic-syntax" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p><strong>List</strong></p>
+<div class="section" id="sections">
+<h2>Sections<a class="headerlink" href="#sections" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>見出し文字の下に以下の記号文字のいずれかを**見出し文字の数より多く**並べる（アンダーラインとして並べる）ことで、ドキュメントの各セクション（見出し）を作成できます。</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>! &quot; # $ % &amp; &#39; ( ) * + , - . / : ; &lt; = &gt; ? @ [ \ ] ^ _ ` { | } ~
+</pre></div>
+</div>
+<p>これらの内特に以下を利用することが推奨されます。</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>= - ` : . &#39; &quot; ~ ^ _ * + #
+</pre></div>
+</div>
+<p>例:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1">#########</span>
+<span class="n">大見出し</span>
+<span class="c1">#########</span>
+
+<span class="n">本文</span>
+
+<span class="o">**********</span>
+<span class="n">中見出し</span>
+<span class="o">**********</span>
+
+<span class="n">本文</span>
+
+<span class="o">========</span>
+<span class="n">小見出し</span>
+<span class="o">========</span>
+
+<span class="n">本文</span>
+</pre></div>
+</div>
+<p>↓</p>
+<img alt="../_images/section-sample.png" src="../_images/section-sample.png" />
+<div class="highlight-default"><div class="highlight"><pre><span></span>注意：
+・ 見栄えを良くするためにオーバーラインを書くこともできます。（見出しの上に並べる事ができる）
+・ オーバーラインを記述する場合はアンダーラインと同じ文字数で書く必要があるようです。
+・  Section用文字は以下の順序で利用することが推奨されているようです
+  1. #
+  2. *
+  3. =
+  4. -
+  5. ^
+  6. &quot;
+</pre></div>
+</div>
+</div>
+<div class="section" id="list">
+<h2>List<a class="headerlink" href="#list" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">*</span> <span class="n">This</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">bulleted</span> <span class="nb">list</span><span class="o">.</span>
 <span class="o">*</span> <span class="n">It</span> <span class="n">has</span> <span class="n">two</span> <span class="n">items</span><span class="p">,</span> <span class="n">the</span> <span class="n">second</span>
 <span class="n">item</span> <span class="n">uses</span> <span class="n">two</span> <span class="n">lines</span><span class="o">.</span>
@@ -66,7 +112,9 @@ item uses two lines.</li>
 <li>This is a numbered list.</li>
 <li>It has two items too.</li>
 </ol>
-<p><strong>Literal blocks</strong></p>
+</div>
+<div class="section" id="literal-blocks">
+<h2>Literal blocks<a class="headerlink" href="#literal-blocks" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">This</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">normal</span> <span class="n">text</span> <span class="n">paragraph</span><span class="o">.</span> <span class="n">The</span> <span class="nb">next</span> <span class="n">paragraph</span> <span class="ow">is</span> <span class="n">a</span> <span class="n">code</span> <span class="n">sample</span><span class="p">::</span>
 
    <span class="n">It</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">processed</span> <span class="ow">in</span> <span class="nb">any</span> <span class="n">way</span><span class="p">,</span> <span class="k">except</span>
@@ -86,17 +134,25 @@ item uses two lines.</li>
 </pre></div>
 </div>
 <p>This is a normal text paragraph again.</p>
-<p><strong>Doctest blocks</strong></p>
+</div>
+<div class="section" id="doctest-blocks">
+<h2>Doctest blocks<a class="headerlink" href="#doctest-blocks" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">1</span> <span class="o">+</span> <span class="mi">1</span>
 <span class="go">2</span>
 </pre></div>
 </div>
+<p>のように <strong>&gt;&gt;&gt;</strong> と記述するとデコレーションされます</p>
 <p>↓</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="mi">1</span> <span class="o">+</span> <span class="mi">1</span>
 <span class="go">2</span>
 </pre></div>
 </div>
-<p><strong>Tables</strong></p>
+</div>
+<div class="section" id="tables">
+<h2>Tables<a class="headerlink" href="#tables" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>テーブルの表記方法にはいくつかあります。</p>
+<div class="section" id="id1">
+<h3>グリッドテーブル表記<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">+------------------------+------------+----------+----------+</span>
 <span class="o">|</span> <span class="n">Header</span> <span class="n">row</span><span class="p">,</span> <span class="n">column</span> <span class="mi">1</span>   <span class="o">|</span> <span class="n">Header</span> <span class="mi">2</span>   <span class="o">|</span> <span class="n">Header</span> <span class="mi">3</span> <span class="o">|</span> <span class="n">Header</span> <span class="mi">4</span> <span class="o">|</span>
 <span class="o">|</span> <span class="p">(</span><span class="n">header</span> <span class="n">rows</span> <span class="n">optional</span><span class="p">)</span> <span class="o">|</span>            <span class="o">|</span>          <span class="o">|</span>          <span class="o">|</span>
@@ -136,6 +192,9 @@ item uses two lines.</li>
 </tr>
 </tbody>
 </table>
+</div>
+<div class="section" id="id2">
+<h3>シンプルテーブル表記<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">=====</span>  <span class="o">=====</span>  <span class="o">=======</span>
 <span class="n">A</span>      <span class="n">B</span>      <span class="n">A</span> <span class="ow">and</span> <span class="n">B</span>
 <span class="o">=====</span>  <span class="o">=====</span>  <span class="o">=======</span>
@@ -178,43 +237,90 @@ item uses two lines.</li>
 </tr>
 </tbody>
 </table>
-<p><a class="reference external" href="https://docutils.sourceforge.io/docs/ref/rst/directives.html#csv-table">https://docutils.sourceforge.io/docs/ref/rst/directives.html#csv-table</a></p>
+</div>
+<div class="section" id="csv-table">
+<h3>csv-tableディレクティブ表記<a class="headerlink" href="#csv-table" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">csv</span><span class="o">-</span><span class="n">table</span><span class="p">::</span>
    <span class="p">:</span><span class="n">header</span><span class="p">:</span> <span class="s2">&quot;AAA&quot;</span><span class="p">,</span> <span class="s2">&quot;BBB&quot;</span><span class="p">,</span> <span class="s2">&quot;CCC&quot;</span>
-   <span class="p">:</span><span class="n">widths</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">30</span>
+   <span class="p">:</span><span class="n">width</span><span class="p">:</span> <span class="mi">80</span><span class="o">%</span>
+   <span class="p">:</span><span class="n">align</span><span class="p">:</span> <span class="n">left</span>
 
    <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span>
    <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span>
 </pre></div>
 </div>
 <p>↓</p>
-<table border="1" class="colwidths-given docutils">
+</div>
+<div class="section" id="list-table">
+<h3>list-tableディレクティブ表記<a class="headerlink" href="#list-table" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<div class="highlight-default"><div class="highlight"><pre><span></span>.. list-table:: Frozen Delights!
+   :widths: 15 10 30
+   :header-rows: 1
+
+   * - Treat
+   - Quantity
+   - Description
+   * - Albatross
+   - 2.99
+   - On a stick!
+   * - Crunchy Frog
+   - 1.49
+   - If we took the bones out, it wouldn&#39;t be
+      crunchy, now would it?
+   * - Gannet Ripple
+   - 1.99
+   - On a stick!
+</pre></div>
+</div>
+<p>↓</p>
+<table border="1" class="colwidths-given docutils" id="id3">
+<caption><span class="caption-text">Frozen Delights!</span><a class="headerlink" href="#id3" title="このテーブルへのパーマリンク">¶</a></caption>
 <colgroup>
 <col width="27%" />
 <col width="18%" />
 <col width="55%" />
 </colgroup>
 <thead valign="bottom">
-<tr class="row-odd"><th class="head">AAA</th>
-<th class="head">BBB</th>
-<th class="head">CCC</th>
+<tr class="row-odd"><th class="head">Treat</th>
+<th class="head">Quantity</th>
+<th class="head">Description</th>
 </tr>
 </thead>
 <tbody valign="top">
-<tr class="row-even"><td>a</td>
-<td>b</td>
-<td>c</td>
+<tr class="row-even"><td>Albatross</td>
+<td>2.99</td>
+<td>On a stick!</td>
 </tr>
-<tr class="row-odd"><td>1</td>
-<td>2</td>
-<td>3</td>
+<tr class="row-odd"><td>Crunchy Frog</td>
+<td>1.49</td>
+<td>If we took the bones out, it wouldn't be
+crunchy, now would it?</td>
+</tr>
+<tr class="row-even"><td>Gannet Ripple</td>
+<td>1.99</td>
+<td>On a stick!</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Hyperlinks</strong></p>
+</div>
+</div>
+<div class="section" id="hyperlinks">
+<h2>Hyperlinks<a class="headerlink" href="#hyperlinks" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>This is a paragraph that contains <a class="reference external" href="https://domain.invalid/">a link</a>.</p>
 <p><cite>Link text &lt;https://domain.invalid/&gt;</cite></p>
-<p><strong>Sections</strong></p>
+</div>
+<div class="section" id="images">
+<h2>Images<a class="headerlink" href="#images" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>画像を利用したい場合はimageディレクティブを利用します。
+画像の場所は、該当のrstファイルからの相対パスと、トップのソースディレクトリからの絶対パスのいずれも利用できます。</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">image</span><span class="p">::</span> <span class="n">imgs</span><span class="o">/</span><span class="n">sample1</span><span class="o">.</span><span class="n">jpg</span>
+   <span class="p">:</span><span class="n">width</span><span class="p">:</span> <span class="mi">50</span> <span class="o">%</span>
+   <span class="p">:</span><span class="n">align</span><span class="p">:</span> <span class="n">left</span>
+</pre></div>
+</div>
+<p>↓</p>
+<a class="reference internal image-reference" href="../_images/sample1.jpg"><img alt="../_images/sample1.jpg" class="align-left" src="../_images/sample1.jpg" style="width: 50%;" /></a>
+</div>
 </div>
 
 
@@ -222,7 +328,27 @@ item uses two lines.</li>
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper"><div class="relations">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">This page is about Basic syntax</a><ul>
+<li><a class="reference internal" href="#sections">Sections</a></li>
+<li><a class="reference internal" href="#list">List</a></li>
+<li><a class="reference internal" href="#literal-blocks">Literal blocks</a></li>
+<li><a class="reference internal" href="#doctest-blocks">Doctest blocks</a></li>
+<li><a class="reference internal" href="#tables">Tables</a><ul>
+<li><a class="reference internal" href="#id1">グリッドテーブル表記</a></li>
+<li><a class="reference internal" href="#id2">シンプルテーブル表記</a></li>
+<li><a class="reference internal" href="#csv-table">csv-tableディレクティブ表記</a></li>
+<li><a class="reference internal" href="#list-table">list-tableディレクティブ表記</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#hyperlinks">Hyperlinks</a></li>
+<li><a class="reference internal" href="#images">Images</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="../index.html">Documentation overview</a><ul>
