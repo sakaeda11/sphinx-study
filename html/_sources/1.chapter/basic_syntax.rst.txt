@@ -258,11 +258,27 @@ list-tableディレクティブ表記
 Hyperlinks
 ************
 
+リンクの書き方は主に2つあります
+
+::
+
+   This is a paragraph that contains `a link`_.
+
+   .. _a link: https://domain.invalid/
+
+↓
+
 This is a paragraph that contains `a link`_.
 
 .. _a link: https://domain.invalid/
 
-`Link text <https://domain.invalid/>`
+::
+
+  `Link text <https://domain.invalid/>`_
+
+↓
+
+`Link text <https://domain.invalid/>`_
 
 *******
 Images
@@ -282,3 +298,46 @@ Images
 .. image:: imgs/sample1.jpg
    :width: 50 %
    :align: left
+
+**********
+Footnotes
+**********
+
+* \[\#name\]\_ と  .. [#name]　を書くことで脚注を記述できます
+* nameは省略しても良いです。(\[\#\]\_だけでも可で、自動採番されます。)
+* #ではなく数字をそのまま記述しても良いです。
+
+
+::
+
+   Lorem ipsum [#f1]_ dolor sit amet ... [#f2]_
+
+   .. [#f1] Text of the first footnote.
+   .. [#f2] Text of the second footnote.
+
+↓
+
+Lorem ipsum [#f1]_ dolor sit amet ... [#f2]_
+
+.. [#f1] Text of the first footnote.
+.. [#f2] Text of the second footnote.
+
+
+.. note:: html生成時は **rubric** ディレクティブを書く事で脚注についてそれらしい整形がされますが、PDF生成時は変な感じになるので書かない方が良さそうです。
+
+
+**********
+Citations
+**********
+
+* 引用、参考文献の記述方法です。
+* 書き方はFootnote(脚注)と似ています。
+* このように [参考文献名ABC]_ と、それに対応するディレクティブを以下のように書いておくと、自動的に参考文献ページが巻末に生成されます。
+
+::
+
+  .. [参考文献名ABC] 2020 CDE著 FGH文庫
+
+.. [参考文献名ABC] 2020 CDE著 FGH文庫
+
+.. warning:: PDF生成ではそれらしい感じになりますが、HTML生成での利用はおすすめしません。

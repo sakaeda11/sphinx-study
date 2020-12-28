@@ -53,9 +53,25 @@
 \phantomsection\label{\detokenize{index::doc}}
 
 
+このドキュメントは、ドキュメント生成ツールSphinxのサンプルです。
+\begin{itemize}
+\item {} \begin{description}
+\item[{詳しくは以下のQiita記事やGithubレポジトリを参照して下さい}] \leavevmode\begin{itemize}
+\item {} 
+\sphinxhref{https://qiita.com/sakaeda11/items/29b96daa58498656e9b5}{Qiita: Sphinx \& reStructuredText入門}
+
+\item {} 
+\sphinxhref{https://github.com/sakaeda11/sphinx-study}{Github: sakaeda11/sphinx-study}
+
+\end{itemize}
+
+\end{description}
+
+\end{itemize}
+
 
 \chapter{This page is about Basic syntax}
-\label{\detokenize{1.chapter/basic_syntax:this-page-is-about-basic-syntax}}\label{\detokenize{1.chapter/basic_syntax:sphinx-sample-project}}\label{\detokenize{1.chapter/basic_syntax::doc}}
+\label{\detokenize{1.chapter/basic_syntax:this-page-is-about-basic-syntax}}\label{\detokenize{1.chapter/basic_syntax::doc}}\label{\detokenize{1.chapter/basic_syntax:sphinx-sample-project}}
 
 \section{Sections}
 \label{\detokenize{1.chapter/basic_syntax:sections}}
@@ -369,7 +385,7 @@ True
 \begin{savenotes}\sphinxattablestart
 \centering
 \sphinxcapstartof{table}
-\sphinxcaption{Frozen Delights!}\label{\detokenize{1.chapter/basic_syntax:id3}}
+\sphinxcaption{Frozen Delights!}\label{\detokenize{1.chapter/basic_syntax:id6}}
 \sphinxaftercaption
 \begin{tabular}[t]{|\X{15}{55}|\X{10}{55}|\X{30}{55}|}
 \hline
@@ -410,9 +426,27 @@ On a stick!
 
 \section{Hyperlinks}
 \label{\detokenize{1.chapter/basic_syntax:hyperlinks}}
+リンクの書き方は主に2つあります
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+This is a paragraph that contains {}`a link{}`\PYGZus{}.
+
+.. \PYGZus{}a link: https://domain.invalid/
+\end{sphinxVerbatim}
+
+↓
+
 This is a paragraph that contains \sphinxhref{https://domain.invalid/}{a link}.
 
-\sphinxtitleref{Link text \textless{}https://domain.invalid/\textgreater{}}
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+{}`Link text \PYGZlt{}https://domain.invalid/\PYGZgt{}{}`\PYGZus{}
+\end{sphinxVerbatim}
+
+↓
+
+\sphinxhref{https://domain.invalid/}{Link text}
 
 
 \section{Images}
@@ -432,14 +466,75 @@ This is a paragraph that contains \sphinxhref{https://domain.invalid/}{a link}.
 \noindent{\sphinxincludegraphics[width=0.500\linewidth]{{sample1}.jpg}\hspace*{\fill}}
 
 
+\section{Footnotes}
+\label{\detokenize{1.chapter/basic_syntax:footnotes}}\begin{itemize}
+\item {} 
+{[}\#name{]}\_ と  .. {[}\#name{]}　を書くことで脚注を記述できます
+
+\item {} 
+nameは省略しても良いです。({[}\#{]}\_だけでも可で、自動採番されます。)
+
+\item {} 
+\#ではなく数字をそのまま記述しても良いです。
+
+\end{itemize}
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{n}{Lorem} \PYG{n}{ipsum} \PYG{p}{[}\PYG{c+c1}{\PYGZsh{}f1]\PYGZus{} dolor sit amet ... [\PYGZsh{}f2]\PYGZus{}}
+
+\PYG{o}{.}\PYG{o}{.} \PYG{p}{[}\PYG{c+c1}{\PYGZsh{}f1] Text of the first footnote.}
+\PYG{o}{.}\PYG{o}{.} \PYG{p}{[}\PYG{c+c1}{\PYGZsh{}f2] Text of the second footnote.}
+\end{sphinxVerbatim}
+
+↓
+
+Lorem ipsum %
+\begin{footnote}[1]\sphinxAtStartFootnote
+Text of the first footnote.
+%
+\end{footnote} dolor sit amet ... %
+\begin{footnote}[2]\sphinxAtStartFootnote
+Text of the second footnote.
+%
+\end{footnote}
+
+\begin{sphinxadmonition}{note}{注釈:}
+html生成時は \sphinxstylestrong{rubric} ディレクティブを書く事で脚注についてそれらしい整形がされますが、PDF生成時は変な感じになるので書かない方が良さそうです。
+\end{sphinxadmonition}
+
+
+\section{Citations}
+\label{\detokenize{1.chapter/basic_syntax:citations}}\begin{itemize}
+\item {} 
+引用、参考文献の記述方法です。
+
+\item {} 
+書き方はFootnote(脚注)と似ています。
+
+\item {} 
+このように \phantomsection\label{\detokenize{1.chapter/basic_syntax:id5}}{\hyperref[\detokenize{1.chapter/basic_syntax:abc}]{\sphinxcrossref{{[}参考文献名ABC{]}}}} と、それに対応するディレクティブを以下のように書いておくと、自動的に参考文献ページが巻末に生成されます。
+
+\end{itemize}
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{.}\PYG{o}{.} \PYG{p}{[}\PYG{n}{参考文献名ABC}\PYG{p}{]} \PYG{l+m+mi}{2020} \PYG{n}{CDE著} \PYG{n}{FGH文庫}
+\end{sphinxVerbatim}
+
+\begin{sphinxadmonition}{warning}{警告:}
+PDF生成ではそれらしい感じになりますが、HTML生成での利用はおすすめしません。
+\end{sphinxadmonition}
+
+
 \chapter{This page is about Directive}
-\label{\detokenize{2.chapter/directive::doc}}\label{\detokenize{2.chapter/directive:this-page-is-about-directive}}
+\label{\detokenize{2.chapter/directive:this-page-is-about-directive}}\label{\detokenize{2.chapter/directive::doc}}
 
 \section{This is Sub page 1}
-\label{\detokenize{2.chapter/subpage/sub1::doc}}\label{\detokenize{2.chapter/subpage/sub1:this-is-sub-page-1}}
+\label{\detokenize{2.chapter/subpage/sub1:this-is-sub-page-1}}\label{\detokenize{2.chapter/subpage/sub1::doc}}
 
 \section{This is Sub page 1}
-\label{\detokenize{2.chapter/subpage/sub2::doc}}\label{\detokenize{2.chapter/subpage/sub2:this-is-sub-page-1}}
+\label{\detokenize{2.chapter/subpage/sub2:this-is-sub-page-1}}\label{\detokenize{2.chapter/subpage/sub2::doc}}
 \begin{sphinxadmonition}{note}{注釈:}
 ".. note::"というディレクティブを記述した場合このようになります。
 \end{sphinxadmonition}
@@ -448,19 +543,11 @@ This is a paragraph that contains \sphinxhref{https://domain.invalid/}{a link}.
 ".. warning::"というディレクティブを記述した場合このようになります。
 \end{sphinxadmonition}
 
-
-\chapter{Indices and tables}
-\label{\detokenize{index:indices-and-tables}}\begin{itemize}
-\item {} 
-\DUrole{xref,std,std-ref}{genindex}
-
-\item {} 
-\DUrole{xref,std,std-ref}{modindex}
-
-\item {} 
-\DUrole{xref,std,std-ref}{search}
-
-\end{itemize}
+\begin{sphinxthebibliography}{参考文献名ABC}
+\bibitem[参考文献名ABC]{\detokenize{_u53c2_u8003_u6587_u732e_u540dABC}}{\phantomsection\label{\detokenize{1.chapter/basic_syntax:abc}} 
+2020 CDE著 FGH文庫
+}
+\end{sphinxthebibliography}
 
 
 
