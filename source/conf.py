@@ -72,7 +72,11 @@ latex_elements = {
 
 
 # -- 図表の表記を変更します。 -----------------------------------------
-numfig_format = {'figure': 'Fig. %s', 'table': '表 %s'}
+numfig_format = {
+  'section': '%s',
+  'figure': '図 %s',
+  'table': '表 %s',
+  'code-block': 'リスト %s'}
 
 # -- 日付表示を消します。 -----------------------------------------
 today = " "
