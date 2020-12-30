@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1609189010 "sphinx-study.dvi" "sphinx-study.pdf" "sphinx-study" 1609189010
-  "sphinx-study.dvi" 1609189010 54436 826a15dea29eec69fad51403f334ce37 "latex"
+["dvipdf"] 1609309145 "sphinx-study.dvi" "sphinx-study.pdf" "sphinx-study" 1609309145
+  "sphinx-study.dvi" 1609309145 54464 aaaf5d7a37b7e07dc57615d0709c2b4d "latex"
   (generated)
   "sphinx-study.pdf"
-["latex"] 1609189009 "sphinx-study.tex" "sphinx-study.dvi" "sphinx-study" 1609189010
+["latex"] 1609309145 "sphinx-study.tex" "sphinx-study.dvi" "sphinx-study" 1609309145
   "/etc/texmf/web2c/texmf.cnf" 1607614546 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrb8t.tfm" 1480098688 1384 87406e4336af44af883a035f17f319d9 ""
@@ -113,29 +113,29 @@
   "/usr/share/texlive/texmf-dist/tex/platex/jsclasses/jslogo.sty" 1487977266 6061 1242b5308ecb0db77c71c1ff6c687ace ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
-  "/var/lib/texmf/web2c/eptex/platex.fmt" 1609188997 1111545 12b14edbb3f3f4fdde30774c9631f671 ""
+  "/var/lib/texmf/web2c/eptex/platex.fmt" 1609309133 1112579 72de2a349ad546b94a7f9be24eb890ec ""
   "footnotehyper-sphinx.sty" 1517759638 8841 e18cbb7bca599a223414f9b8a156abee ""
-  "sample1.jpg" 1609188873 231578 2bda3346bc6d13e4fce24cd3d817c430 ""
-  "sample1.xbb" 1609189009 184 7658449536c73da582f94a3517b7895f ""
-  "section-sample.png" 1609188873 28466 32c769f635439edbdde51f7c4e21e705 ""
-  "section-sample.xbb" 1609189009 187 77447803887e7f746fe99f15142b8428 ""
-  "sphinx-study.aux" 1609189010 5077 776a25bdb0df03b277598b7cc457ab0a ""
-  "sphinx-study.ind" 1609189009 0 d41d8cd98f00b204e9800998ecf8427e "makeindex sphinx-study.idx"
-  "sphinx-study.out" 1609189010 804 09b1afc9bacbbee72c3efae7c67f6e29 ""
-  "sphinx-study.tex" 1609189009 20848 d47f606409368093db200e3fd8e82f59 ""
-  "sphinx-study.toc" 1609189010 1409 ab7d22c43b98600d494aff749b57c964 ""
+  "sample1.jpg" 1609308993 231578 2bda3346bc6d13e4fce24cd3d817c430 ""
+  "sample1.xbb" 1609309144 184 5f8b70db791c50a83fe9ac6cc30c84f7 ""
+  "section-sample.png" 1609308993 28466 32c769f635439edbdde51f7c4e21e705 ""
+  "section-sample.xbb" 1609309144 187 63b0cebb58ef46e42658a663d93e2e3b ""
+  "sphinx-study.aux" 1609309145 5077 6be7d3a9e3d00b9eb6c220142f0443f7 ""
+  "sphinx-study.ind" 1609309144 0 d41d8cd98f00b204e9800998ecf8427e "makeindex sphinx-study.idx"
+  "sphinx-study.out" 1609309145 804 09b1afc9bacbbee72c3efae7c67f6e29 ""
+  "sphinx-study.tex" 1609309144 20876 72b2a4cbf624e53024a7d50249c091d3 ""
+  "sphinx-study.toc" 1609309145 1409 ab7d22c43b98600d494aff749b57c964 ""
   "sphinx.sty" 1517759638 64257 27389b3f9c27254b2f20d236bdb2ebcf ""
-  "sphinxhighlight.sty" 1609189009 8137 38a433148fcb7611515a989ff1750dd5 ""
+  "sphinxhighlight.sty" 1609309144 8137 38a433148fcb7611515a989ff1750dd5 ""
   "sphinxmanual.cls" 1516805694 3589 0b0aac49c6f36925cf5f9d524a75a978 ""
   "sphinxmulticell.sty" 1516805694 14618 0defbdc8536ad2e67f1eac6a1431bc55 ""
   (generated)
-  "sphinx-study.toc"
-  "sphinx-study.aux"
   "sphinx-study.out"
-  "sphinx-study.log"
-  "sphinx-study.idx"
+  "sphinx-study.aux"
   "sphinx-study.dvi"
-["makeindex sphinx-study.idx"] 1609189009 "sphinx-study.idx" "sphinx-study.ind" "sphinx-study" 1609189010
-  "sphinx-study.idx" 1609189010 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "sphinx-study.idx"
+  "sphinx-study.toc"
+  "sphinx-study.log"
+["makeindex sphinx-study.idx"] 1609309144 "sphinx-study.idx" "sphinx-study.ind" "sphinx-study" 1609309145
+  "sphinx-study.idx" 1609309145 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "sphinx-study.ind"

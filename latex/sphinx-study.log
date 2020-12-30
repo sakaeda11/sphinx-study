@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2020.12.28)  28 DEC 2020 20:56
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2020.12.30)  30 DEC 2020 06:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -918,10 +918,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 586.
 Here is how much of TeX's memory you used:
  9406 strings out of 494735
  134506 string characters out of 6176125
- 274728 words of memory out of 5000000
+ 274726 words of memory out of 5000000
  12700 multiletter control sequences out of 15000+600000
  61836 words of font info for 130 fonts, out of 8000000 for 9000
  270 hyphenation exceptions out of 8191
  37i,11n,45p,1094b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sphinx-study.dvi (13 pages, 54436 bytes).
+Output written on sphinx-study.dvi (13 pages, 54464 bytes).
