@@ -69,3 +69,15 @@ master_doc = 'index'
 latex_elements = {
   'extraclassoptions': 'openany,oneside'
 }
+
+
+# -- 図表の表記を変更します。 -----------------------------------------
+numfig_format = {'figure': 'Fig. %s', 'table': '表 %s'}
+
+# -- 日付表示を消します。 -----------------------------------------
+today = " "
+
+from sphinx.locale import admonitionlabels
+
+admonitionlabels['note'] = u'メモ'
+admonitionlabels['warning'] = u'注意'

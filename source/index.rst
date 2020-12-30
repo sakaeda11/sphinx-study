@@ -13,3 +13,5 @@ Sphinx sample project
 
    1.chapter/basic_syntax
    2.chapter/directive
+   3.chapter/others
+   
