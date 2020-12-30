@@ -297,6 +297,32 @@ Images
    :width: 50 %
    :align: left
 
+
+*********
+Figure
+*********
+
+imageを拡張したディレクティブで、キャプションを設定できます
+
+::
+
+   .. figure:: imgs/sample1.jpg
+      :width: 50 %
+      :alt: map to buried treasure
+
+      This is the caption of the figure (a simple paragraph).
+
+↓
+
+.. figure:: imgs/sample1.jpg
+   :width: 50 %
+   :alt: map to buried treasure
+
+   This is the caption of the figure (a simple paragraph).
+
+
+
+
 **********
 Footnotes
 **********

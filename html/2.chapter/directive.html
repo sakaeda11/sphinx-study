@@ -42,19 +42,52 @@
             
   <div class="section" id="this-page-is-about-directive">
 <h1>This page is about Directive<a class="headerlink" href="#this-page-is-about-directive" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="toctree-nest">
+<h2>toctree nest<a class="headerlink" href="#toctree-nest" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>toctreeは入れ子にすることができます。</p>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="subpage/sub1.html">AAA BBB CCC</a></li>
 <li class="toctree-l1"><a class="reference internal" href="subpage/sub2.html">This is Sub page 1</a></li>
 </ul>
 </div>
+</div>
+<div class="section" id="note">
+<h2>note<a class="headerlink" href="#note" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="admonition note">
-<p class="first admonition-title">注釈</p>
+<p class="first admonition-title">メモ</p>
 <p class="last">&quot;.. note::&quot;というディレクティブを記述した場合このようになります。</p>
 </div>
+</div>
+<div class="section" id="warning">
+<h2>warning<a class="headerlink" href="#warning" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="admonition warning">
-<p class="first admonition-title">警告</p>
+<p class="first admonition-title">注意</p>
 <p class="last">&quot;.. warning::&quot;というディレクティブを記述した場合このようになります。</p>
+</div>
+</div>
+<div class="section" id="admonition">
+<h2>admonition<a class="headerlink" href="#admonition" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">admonition</span><span class="p">::</span> <span class="n">テストです</span>
+
+   <span class="n">あいうえお</span>
+</pre></div>
+</div>
+<p>↓</p>
+<div class="admonition- admonition">
+<p class="first admonition-title">テストです</p>
+<p class="last">あいうえお</p>
+</div>
+</div>
+<div class="section" id="math">
+<h2>math<a class="headerlink" href="#math" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>数学記号を記載したい場合</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">math</span><span class="p">::</span>
+
+   <span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span><span class="o">^</span><span class="mi">2</span> <span class="o">=</span> <span class="n">a</span><span class="o">^</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="n">ab</span> <span class="o">+</span> <span class="n">b</span><span class="o">^</span><span class="mi">2</span>
+</pre></div>
+</div>
+<p>↓</p>
 </div>
 </div>
 
@@ -63,7 +96,19 @@
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper"><div class="relations">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">This page is about Directive</a><ul>
+<li><a class="reference internal" href="#toctree-nest">toctree nest</a></li>
+<li><a class="reference internal" href="#note">note</a></li>
+<li><a class="reference internal" href="#warning">warning</a></li>
+<li><a class="reference internal" href="#admonition">admonition</a></li>
+<li><a class="reference internal" href="#math">math</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="../index.html">Documentation overview</a><ul>

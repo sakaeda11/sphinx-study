@@ -10,9 +10,18 @@
 \contentsline {subsection}{\numberline {1.5.4}list-tableディレクティブ表記}{6}{subsection.1.5.4}
 \contentsline {section}{\numberline {1.6}Hyperlinks}{7}{section.1.6}
 \contentsline {section}{\numberline {1.7}Images}{7}{section.1.7}
-\contentsline {section}{\numberline {1.8}Footnotes}{7}{section.1.8}
-\contentsline {section}{\numberline {1.9}Citations}{8}{section.1.9}
-\contentsline {chapter}{\numberline {第2章}This page is about Directive}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}This is Sub page 1}{9}{section.2.1}
-\contentsline {section}{\numberline {2.2}This is Sub page 1}{9}{section.2.2}
-\contentsline {chapter}{参考文献}{11}{chapter*.4}
+\contentsline {section}{\numberline {1.8}Figure}{7}{section.1.8}
+\contentsline {section}{\numberline {1.9}Footnotes}{8}{section.1.9}
+\contentsline {section}{\numberline {1.10}Citations}{9}{section.1.10}
+\contentsline {chapter}{\numberline {第2章}This page is about Directive}{10}{chapter.2}
+\contentsline {section}{\numberline {2.1}toctree nest}{10}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}This is Sub page 1}{10}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}This is Sub page 1}{10}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}note}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}warning}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}admonition}{10}{section.2.4}
+\contentsline {section}{\numberline {2.5}math}{11}{section.2.5}
+\contentsline {chapter}{\numberline {第3章}Others}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}図表の自動入力文字の変更}{12}{section.3.1}
+\contentsline {section}{\numberline {3.2}warning,note,tipsなどの自動入力文字の変更}{12}{section.3.2}
+\contentsline {chapter}{参考文献}{13}{chapter*.4}

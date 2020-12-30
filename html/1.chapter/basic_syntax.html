@@ -354,6 +354,22 @@ crunchy, now would it?</td>
 <p>↓</p>
 <a class="reference internal image-reference" href="../_images/sample1.jpg"><img alt="../_images/sample1.jpg" class="align-left" src="../_images/sample1.jpg" style="width: 50%;" /></a>
 </div>
+<div class="section" id="figure">
+<h2>Figure<a class="headerlink" href="#figure" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>imageを拡張したディレクティブで、キャプションを設定できます</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">figure</span><span class="p">::</span> <span class="n">imgs</span><span class="o">/</span><span class="n">sample1</span><span class="o">.</span><span class="n">jpg</span>
+   <span class="p">:</span><span class="n">width</span><span class="p">:</span> <span class="mi">50</span> <span class="o">%</span>
+   <span class="p">:</span><span class="n">alt</span><span class="p">:</span> <span class="nb">map</span> <span class="n">to</span> <span class="n">buried</span> <span class="n">treasure</span>
+
+   <span class="n">This</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">caption</span> <span class="n">of</span> <span class="n">the</span> <span class="n">figure</span> <span class="p">(</span><span class="n">a</span> <span class="n">simple</span> <span class="n">paragraph</span><span class="p">)</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>↓</p>
+<div class="figure" id="id7">
+<a class="reference internal image-reference" href="../_images/sample1.jpg"><img alt="map to buried treasure" src="../_images/sample1.jpg" style="width: 50%;" /></a>
+<p class="caption"><span class="caption-text">This is the caption of the figure (a simple paragraph).</span></p>
+</div>
+</div>
 <div class="section" id="footnotes">
 <h2>Footnotes<a class="headerlink" href="#footnotes" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
@@ -382,7 +398,7 @@ crunchy, now would it?</td>
 </tbody>
 </table>
 <div class="admonition note">
-<p class="first admonition-title">注釈</p>
+<p class="first admonition-title">メモ</p>
 <p class="last">html生成時は <strong>rubric</strong> ディレクティブを書く事で脚注についてそれらしい整形がされますが、PDF生成時は変な感じになるので書かない方が良さそうです。</p>
 </div>
 </div>
@@ -403,7 +419,7 @@ crunchy, now would it?</td>
 </tbody>
 </table>
 <div class="admonition warning">
-<p class="first admonition-title">警告</p>
+<p class="first admonition-title">注意</p>
 <p class="last">PDF生成ではそれらしい感じになりますが、HTML生成での利用はおすすめしません。</p>
 </div>
 </div>
@@ -431,6 +447,7 @@ crunchy, now would it?</td>
 </li>
 <li><a class="reference internal" href="#hyperlinks">Hyperlinks</a></li>
 <li><a class="reference internal" href="#images">Images</a></li>
+<li><a class="reference internal" href="#figure">Figure</a></li>
 <li><a class="reference internal" href="#footnotes">Footnotes</a></li>
 <li><a class="reference internal" href="#citations">Citations</a></li>
 </ul>

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2020.12.30)  30 DEC 2020 06:19
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017/Debian) (preloaded format=platex 2020.12.30)  30 DEC 2020 10:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,50 +878,56 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 File: sample1.jpg Graphic file (type bmp)
 <sample1.jpg>
  [7]
+File: sample1.jpg Graphic file (type bmp)
+<sample1.jpg>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 523.
+(Font)              scaled to size 6.72699pt on input line 546.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 523.
+(Font)              scaled to size 5.76599pt on input line 546.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 523.
-LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 546.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 546.
-LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 546.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 546.
+(Font)              scaled to size 5.76599pt on input line 546.
  [8]
+LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 569.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 569.
+LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 569.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 569.
+ [9]
 第2章
-[9
+[10
 
-] [10
+] [11]
+第3章
+[12
 
 ] (./sphinx-study.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 586.
- [11
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 684.
+ [13
+
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 586.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 684.
  (./sphinx-study.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 586.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 586.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 684.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 684.
 Package rerunfilecheck Info: File `sphinx-study.out' has not changed.
-(rerunfilecheck)             Checksum: 09B1AFC9BACBBEE72C3EFAE7C67F6E29;804.
+(rerunfilecheck)             Checksum: D092E0B20BEB4E41143BBF9BD85646EF;1225.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 586.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 684.
  ) 
 Here is how much of TeX's memory you used:
- 9406 strings out of 494735
- 134506 string characters out of 6176125
- 274726 words of memory out of 5000000
- 12700 multiletter control sequences out of 15000+600000
+ 9419 strings out of 494735
+ 134844 string characters out of 6176125
+ 275638 words of memory out of 5000000
+ 12713 multiletter control sequences out of 15000+600000
  61836 words of font info for 130 fonts, out of 8000000 for 9000
  270 hyphenation exceptions out of 8191
  37i,11n,45p,1094b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sphinx-study.dvi (13 pages, 54464 bytes).
+Output written on sphinx-study.dvi (15 pages, 67880 bytes).

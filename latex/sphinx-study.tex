@@ -39,7 +39,7 @@
 
 
 \title{sphinx-study}
-\date{2020年12月30日}
+\date{ }
 \release{1.0.0}
 \author{}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -71,7 +71,7 @@
 
 
 \chapter{This page is about Basic syntax}
-\label{\detokenize{1.chapter/basic_syntax::doc}}\label{\detokenize{1.chapter/basic_syntax:this-page-is-about-basic-syntax}}\label{\detokenize{1.chapter/basic_syntax:sphinx-sample-project}}
+\label{\detokenize{1.chapter/basic_syntax:sphinx-sample-project}}\label{\detokenize{1.chapter/basic_syntax:this-page-is-about-basic-syntax}}\label{\detokenize{1.chapter/basic_syntax::doc}}
 
 \section{Sections}
 \label{\detokenize{1.chapter/basic_syntax:sections}}
@@ -496,6 +496,29 @@ This is a paragraph that contains \sphinxhref{https://domain.invalid/}{a link}.
 \noindent{\sphinxincludegraphics[width=0.500\linewidth]{{sample1}.jpg}\hspace*{\fill}}
 
 
+\section{Figure}
+\label{\detokenize{1.chapter/basic_syntax:figure}}
+imageを拡張したディレクティブで、キャプションを設定できます
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{.}\PYG{o}{.} \PYG{n}{figure}\PYG{p}{:}\PYG{p}{:} \PYG{n}{imgs}\PYG{o}{/}\PYG{n}{sample1}\PYG{o}{.}\PYG{n}{jpg}
+   \PYG{p}{:}\PYG{n}{width}\PYG{p}{:} \PYG{l+m+mi}{50} \PYG{o}{\PYGZpc{}}
+   \PYG{p}{:}\PYG{n}{alt}\PYG{p}{:} \PYG{n+nb}{map} \PYG{n}{to} \PYG{n}{buried} \PYG{n}{treasure}
+
+   \PYG{n}{This} \PYG{o+ow}{is} \PYG{n}{the} \PYG{n}{caption} \PYG{n}{of} \PYG{n}{the} \PYG{n}{figure} \PYG{p}{(}\PYG{n}{a} \PYG{n}{simple} \PYG{n}{paragraph}\PYG{p}{)}\PYG{o}{.}
+\end{sphinxVerbatim}
+
+↓
+
+\begin{figure}[htbp]
+\centering
+\capstart
+
+\noindent\sphinxincludegraphics[width=0.500\linewidth]{{sample1}.jpg}
+\caption{This is the caption of the figure (a simple paragraph).}\label{\detokenize{1.chapter/basic_syntax:id7}}\end{figure}
+
+
 \section{Footnotes}
 \label{\detokenize{1.chapter/basic_syntax:footnotes}}\begin{itemize}
 \item {} 
@@ -529,7 +552,7 @@ Text of the second footnote.
 %
 \end{footnote}
 
-\begin{sphinxadmonition}{note}{注釈:}
+\begin{sphinxadmonition}{note}{メモ:}
 html生成時は \sphinxstylestrong{rubric} ディレクティブを書く事で脚注についてそれらしい整形がされますが、PDF生成時は変な感じになるので書かない方が良さそうです。
 \end{sphinxadmonition}
 
@@ -552,7 +575,7 @@ html生成時は \sphinxstylestrong{rubric} ディレクティブを書く事で
 \PYG{o}{.}\PYG{o}{.} \PYG{p}{[}\PYG{n}{参考文献名ABC}\PYG{p}{]} \PYG{l+m+mi}{2020} \PYG{n}{CDE著} \PYG{n}{FGH文庫}
 \end{sphinxVerbatim}
 
-\begin{sphinxadmonition}{warning}{警告:}
+\begin{sphinxadmonition}{warning}{注意:}
 PDF生成ではそれらしい感じになりますが、HTML生成での利用はおすすめしません。
 \end{sphinxadmonition}
 
@@ -560,18 +583,93 @@ PDF生成ではそれらしい感じになりますが、HTML生成での利用�
 \chapter{This page is about Directive}
 \label{\detokenize{2.chapter/directive:this-page-is-about-directive}}\label{\detokenize{2.chapter/directive::doc}}
 
-\section{This is Sub page 1}
+\section{toctree nest}
+\label{\detokenize{2.chapter/directive:toctree-nest}}
+toctreeは入れ子にすることができます。
+
+
+\subsection{This is Sub page 1}
 \label{\detokenize{2.chapter/subpage/sub1:this-is-sub-page-1}}\label{\detokenize{2.chapter/subpage/sub1::doc}}
 
-\section{This is Sub page 1}
+\subsection{This is Sub page 1}
 \label{\detokenize{2.chapter/subpage/sub2:this-is-sub-page-1}}\label{\detokenize{2.chapter/subpage/sub2::doc}}
-\begin{sphinxadmonition}{note}{注釈:}
+
+\section{note}
+\label{\detokenize{2.chapter/directive:note}}
+\begin{sphinxadmonition}{note}{メモ:}
 ".. note::"というディレクティブを記述した場合このようになります。
 \end{sphinxadmonition}
 
-\begin{sphinxadmonition}{warning}{警告:}
+
+\section{warning}
+\label{\detokenize{2.chapter/directive:warning}}
+\begin{sphinxadmonition}{warning}{注意:}
 ".. warning::"というディレクティブを記述した場合このようになります。
 \end{sphinxadmonition}
+
+
+\section{admonition}
+\label{\detokenize{2.chapter/directive:admonition}}
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{.}\PYG{o}{.} \PYG{n}{admonition}\PYG{p}{:}\PYG{p}{:} \PYG{n}{テストです}
+
+   \PYG{n}{あいうえお}
+\end{sphinxVerbatim}
+
+↓
+
+\begin{sphinxadmonition}{note}{テストです}
+
+あいうえお
+\end{sphinxadmonition}
+
+
+\section{math}
+\label{\detokenize{2.chapter/directive:math}}
+数学記号を記載したい場合
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{.}\PYG{o}{.} \PYG{n}{math}\PYG{p}{:}\PYG{p}{:}
+
+   \PYG{p}{(}\PYG{n}{a} \PYG{o}{+} \PYG{n}{b}\PYG{p}{)}\PYG{o}{\PYGZca{}}\PYG{l+m+mi}{2} \PYG{o}{=} \PYG{n}{a}\PYG{o}{\PYGZca{}}\PYG{l+m+mi}{2} \PYG{o}{+} \PYG{l+m+mi}{2}\PYG{n}{ab} \PYG{o}{+} \PYG{n}{b}\PYG{o}{\PYGZca{}}\PYG{l+m+mi}{2}
+\end{sphinxVerbatim}
+
+↓
+
+
+\chapter{Others}
+\label{\detokenize{3.chapter/others:others}}\label{\detokenize{3.chapter/others::doc}}
+
+\section{図表の自動入力文字の変更}
+\label{\detokenize{3.chapter/others:id1}}
+figureディレクティブの \sphinxstylestrong{図} のようにSphinxが自動的に埋め込む文字を変更したい場合
+
+conf.py:
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{n}{numfig\PYGZus{}format} \PYG{o}{=} \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{figure}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Fig. }\PYG{l+s+si}{\PYGZpc{}s}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{table}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{:} \PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{表 }\PYG{l+s+si}{\PYGZpc{}s}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{\PYGZcb{}}
+\end{sphinxVerbatim}
+
+
+\section{warning,note,tipsなどの自動入力文字の変更}
+\label{\detokenize{3.chapter/others:warning-note-tips}}
+warning,note,tipsなどの自動入力文字を変更したい場合の正しい方法は不明ですが、
+conf.py上でパラメータ上書きすると変更できるようです。
+
+conf.py:
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{sphinx}\PYG{n+nn}{.}\PYG{n+nn}{locale} \PYG{k}{import} \PYG{n}{admonitionlabels}
+
+\PYG{n}{admonitionlabels}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{note}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+sa}{u}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{メモ}\PYG{l+s+s1}{\PYGZsq{}}
+\PYG{n}{admonitionlabels}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{warning}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{l+s+sa}{u}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{注意}\PYG{l+s+s1}{\PYGZsq{}}
+\end{sphinxVerbatim}
+
+\sphinxhref{https://teratail.com/questions/91499}{参考：teratail Sphinx文書のadmonitionカスタマイズ}
 
 \begin{sphinxthebibliography}{参考文献名ABC}
 \bibitem[参考文献名ABC]{\detokenize{_u53c2_u8003_u6587_u732e_u540dABC}}{\phantomsection\label{\detokenize{1.chapter/basic_syntax:abc}} 
