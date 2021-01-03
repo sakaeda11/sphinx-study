@@ -24,7 +24,7 @@
     <script type="text/javascript" src="../_static/translations.js"></script>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="検索" href="../search.html" />
-    <link rel="next" title="This page is about Directive" href="../2.chapter/directive.html" />
+    <link rel="next" title="This page is about Roles" href="roles.html" />
     <link rel="prev" title="Sphinx sample project" href="../index.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
@@ -357,7 +357,9 @@ crunchy, now would it?</td>
 <div class="section" id="figure">
 <h2>Figure<a class="headerlink" href="#figure" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>imageを拡張したディレクティブで、キャプションを設定できます</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">figure</span><span class="p">::</span> <span class="n">imgs</span><span class="o">/</span><span class="n">sample1</span><span class="o">.</span><span class="n">jpg</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">_figure</span><span class="o">-</span><span class="n">reference</span><span class="p">:</span>
+
+<span class="o">..</span> <span class="n">figure</span><span class="p">::</span> <span class="n">imgs</span><span class="o">/</span><span class="n">sample1</span><span class="o">.</span><span class="n">jpg</span>
    <span class="p">:</span><span class="n">width</span><span class="p">:</span> <span class="mi">50</span> <span class="o">%</span>
    <span class="p">:</span><span class="n">alt</span><span class="p">:</span> <span class="nb">map</span> <span class="n">to</span> <span class="n">buried</span> <span class="n">treasure</span>
 
@@ -366,7 +368,7 @@ crunchy, now would it?</td>
 </div>
 <p>↓</p>
 <div class="figure" id="id7">
-<a class="reference internal image-reference" href="../_images/sample1.jpg"><img alt="map to buried treasure" src="../_images/sample1.jpg" style="width: 50%;" /></a>
+<span id="figure-reference"></span><a class="reference internal image-reference" href="../_images/sample1.jpg"><img alt="map to buried treasure" src="../_images/sample1.jpg" style="width: 50%;" /></a>
 <p class="caption"><span class="caption-text">This is the caption of the figure (a simple paragraph).</span></p>
 </div>
 </div>
@@ -458,7 +460,7 @@ crunchy, now would it?</td>
 <ul>
   <li><a href="../index.html">Documentation overview</a><ul>
       <li>Previous: <a href="../index.html" title="前の章へ">Sphinx sample project</a></li>
-      <li>Next: <a href="../2.chapter/directive.html" title="次の章へ">This page is about Directive</a></li>
+      <li>Next: <a href="roles.html" title="次の章へ">This page is about Roles</a></li>
   </ul></li>
 </ul>
 </div>

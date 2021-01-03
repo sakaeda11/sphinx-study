@@ -1,0 +1,275 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>This page is about Roles &#8212; sphinx-study 1.0.0 ドキュメント</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="検索" href="../search.html" />
+    <link rel="next" title="This page is about Directive" href="../2.chapter/directive.html" />
+    <link rel="prev" title="This page is about Basic syntax" href="basic_syntax.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="this-page-is-about-roles">
+<span id="sample-target"></span><h1>This page is about Roles<a class="headerlink" href="#this-page-is-about-roles" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="highlight-default"><div class="highlight"><pre><span></span>:rolename:`content`
+</pre></div>
+</div>
+<p>のように記述しrole名によって定められた意味・修飾を <strong>content</strong> に対して行う。</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>注意</dt>
+<dd><ul class="first last">
+<li>contentを囲む&quot;`&quot;は必須</li>
+<li>:rolename:の後にスペースを入れない</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>:rolename:を記述せず、`content`のみ記述した場合はデフォルトのロールとして処理される</dt>
+<dd><ul class="first last">
+<li>デフォルトのロールは:title-reference:となっている模様</li>
+<li>以下のように <strong>default-role</strong> ディレクティブを利用することでデフォルトロールは変更可能</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">default</span><span class="o">-</span><span class="n">role</span><span class="p">::</span> <span class="n">subscript</span>
+</pre></div>
+</div>
+<p>例えば</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>:emphasis:`強調`
+
+:strong:`強調`
+
+:literal:`リテラル`
+
+:subscript:`下付き文字`
+
+:superscript:`上付き文字`
+
+:title-reference:`書籍、定期刊行物などのタイトル`
+
+`デフォルトのロール`
+</pre></div>
+</div>
+<p>↓</p>
+<p><em>強調</em></p>
+<p><strong>強調</strong></p>
+<p><code class="docutils literal"><span class="pre">リテラル</span></code></p>
+<p><sub>下付き文字</sub></p>
+<p><sup>上付き文字</sup></p>
+<p><cite>書籍、定期刊行物などのタイトル</cite></p>
+<p><cite>デフォルトのロール</cite></p>
+<p>のようになる</p>
+<div class="section" id="cross-referencing-syntax">
+<h2>Cross-referencing syntax<a class="headerlink" href="#cross-referencing-syntax" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="ref">
+<h3>ref<a class="headerlink" href="#ref" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>ドキュメント内の自由な位置に対してクロスリファレンス(リンク)を作成できます。</p>
+<ul class="simple">
+<li>refによるクロスリファレンスの記法は2通りあります。</li>
+</ul>
+<p>記法1:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>.. _my-reference-label:
+
+Section to cross-reference
+--------------------------
+
+This is the text of the section.
+
+.. _my-figure:
+
+.. figure:: whatever
+
+   Figure caption
+
+It refers to the section itself, see :ref:`my-reference-label`.
+</pre></div>
+</div>
+<ul class="simple">
+<li>セクションのタイトルの直前や、図の直前にラベルを記述し、:ref:`label-name`と記述する方法です。</li>
+<li>ラベルはユニークである必要があります</li>
+<li>ラベルは_(アンダースコア)で始まる必要があります。</li>
+</ul>
+<p>記法2:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>:ref:`Link title &lt;sample-target&gt;`
+</pre></div>
+</div>
+<ul class="simple">
+<li>このようにラベル名を別名にすることもできます。</li>
+</ul>
+<div class="section" id="id1">
+<h4>refの例<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h4>
+<p><a class="reference internal" href="#sample-target"><span class="std std-ref">This page is about Roles</span></a></p>
+<p><a class="reference internal" href="basic_syntax.html#figure-reference"><span class="std std-ref">This is the caption of the figure (a simple paragraph).</span></a></p>
+<p><a class="reference internal" href="#sample-target"><span class="std std-ref">Link title</span></a></p>
+</div>
+</div>
+<div class="section" id="any">
+<h3>any<a class="headerlink" href="#any" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>anyというロールは、最初に標準のクロスリファレンス doc, ref, option として解釈できるか試し、
+それで見つからなければ使われている全てのドメインのオブジェクト(ターゲット)に参照できるか試します。</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>:any:`sample-target`
+</pre></div>
+</div>
+<p>↓</p>
+<p><a class="reference internal" href="#sample-target"><span class="std std-ref">This page is about Roles</span></a></p>
+<p>便利ですが、明示的にrefなどを利用した方が良いように思います。</p>
+</div>
+</div>
+<div class="section" id="others">
+<h2>Others<a class="headerlink" href="#others" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span>Since Pythagoras, we know that :math:`a^2 + b^2 = c^2`.
+
+:abbr:`LIFO (last-in, first-out)`
+
+:command:`cp abc.txt def.txt`
+
+:dfn:`abc ABC 123 あいう`
+
+is installed in :file:`/usr/lib/python2.{x}/site-packages`
+
+:guilabel:`&amp;Cancel`
+
+:kbd:`Control-x Control-f`
+
+:mailheader:`Content-Type`
+
+:make:`abc`
+
+:manpage:`ls(1)`
+
+:menuselection:`Start --&gt; Programs`
+
+:program:`example.exe`
+
+:regexp:`[0-9a-z].`
+
+:samp:`print 1+{variable}`
+
+:pep:`8#id15`
+
+:rfc:`3986#section-2`
+</pre></div>
+</div>
+<p>↓</p>
+<p>Since Pythagoras, we know that .</p>
+<p><abbr title="last-in, first-out">LIFO</abbr></p>
+<p><strong class="command">cp abc.txt def.txt</strong></p>
+<p><em class="dfn">abc ABC 123 あいう</em></p>
+<p>is installed in <code class="file docutils literal"><span class="pre">/usr/lib/python2.</span><em><span class="pre">x</span></em><span class="pre">/site-packages</span></code></p>
+<p><span class="guilabel"><span class="accelerator">C</span>ancel</span></p>
+<p><code class="kbd docutils literal"><span class="pre">Control-x</span> <span class="pre">Control-f</span></code></p>
+<p><em class="mailheader">Content-Type</em></p>
+<p><strong class="makevar">abc</strong></p>
+<p><em class="manpage">ls(1)</em></p>
+<p><span class="menuselection">Start ‣ Programs</span></p>
+<p><strong class="program">example.exe</strong></p>
+<p><code class="regexp docutils literal"><span class="pre">[0-9a-z].</span></code></p>
+<p><code class="samp docutils literal"><span class="pre">print</span> <span class="pre">1+</span><em><span class="pre">variable</span></em></code></p>
+<p><span class="target" id="index-0"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0008#id15"><strong>PEP 8#id15</strong></a></p>
+<p><span class="target" id="index-1"></span><a class="rfc reference external" href="https://tools.ietf.org/html/rfc3986.html#section-2"><strong>RFC 3986#section-2</strong></a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">This page is about Roles</a><ul>
+<li><a class="reference internal" href="#cross-referencing-syntax">Cross-referencing syntax</a><ul>
+<li><a class="reference internal" href="#ref">ref</a><ul>
+<li><a class="reference internal" href="#id1">refの例</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#any">any</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#others">Others</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="basic_syntax.html" title="前の章へ">This page is about Basic syntax</a></li>
+      <li>Next: <a href="../2.chapter/directive.html" title="次の章へ">This page is about Directive</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>このページ</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/1.chapter/roles.rst.txt"
+            rel="nofollow">ソースコードを表示</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>クイック検索</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="検索" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Junichi Sakaeda.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/1.chapter/roles.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

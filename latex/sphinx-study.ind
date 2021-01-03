@@ -1,0 +1,13 @@
+\begin{sphinxtheindex}
+\def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
+
+
+  \item Python Enhancement Proposals
+    \subitem PEP 8\#id15, \hyperpage{13}
+
+  \indexspace
+
+  \item RFC
+    \subitem RFC 3986\#section-2, \hyperpage{13}
+
+\end{sphinxtheindex}

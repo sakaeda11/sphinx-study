@@ -13,15 +13,22 @@
 \contentsline {section}{\numberline {1.8}Figure}{7}{section.1.8}
 \contentsline {section}{\numberline {1.9}Footnotes}{8}{section.1.9}
 \contentsline {section}{\numberline {1.10}Citations}{9}{section.1.10}
-\contentsline {chapter}{\numberline {第2章}This page is about Directive}{10}{chapter.2}
-\contentsline {section}{\numberline {2.1}toctree nest}{10}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}This is Sub page 1}{10}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}This is Sub page 1}{10}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}note}{10}{section.2.2}
-\contentsline {section}{\numberline {2.3}warning}{10}{section.2.3}
-\contentsline {section}{\numberline {2.4}admonition}{10}{section.2.4}
-\contentsline {section}{\numberline {2.5}math}{11}{section.2.5}
-\contentsline {chapter}{\numberline {第3章}Others}{12}{chapter.3}
-\contentsline {section}{\numberline {3.1}図表の自動入力文字の変更}{12}{section.3.1}
-\contentsline {section}{\numberline {3.2}warning,note,tipsなどの自動入力文字の変更}{12}{section.3.2}
-\contentsline {chapter}{参考文献}{13}{chapter*.4}
+\contentsline {chapter}{\numberline {第2章}This page is about Roles}{10}{chapter.2}
+\contentsline {section}{\numberline {2.1}Cross-referencing syntax}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}ref}{11}{subsection.2.1.1}
+\contentsline {subsubsection}{refの例}{12}{subsubsection*.4}
+\contentsline {subsection}{\numberline {2.1.2}any}{12}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Others}{12}{section.2.2}
+\contentsline {chapter}{\numberline {第3章}This page is about Directive}{14}{chapter.3}
+\contentsline {section}{\numberline {3.1}toctree nest}{14}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}This is Sub page 1}{14}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}This is Sub page 1}{14}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}note}{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}warning}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}admonition}{14}{section.3.4}
+\contentsline {section}{\numberline {3.5}math}{15}{section.3.5}
+\contentsline {chapter}{\numberline {第4章}Others}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}図表の自動入力文字の変更}{16}{section.4.1}
+\contentsline {section}{\numberline {4.2}warning,note,tipsなどの自動入力文字の変更}{16}{section.4.2}
+\contentsline {chapter}{参考文献}{17}{chapter*.5}
+\contentsline {chapter}{索引}{19}{section*.7}

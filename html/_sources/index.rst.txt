@@ -12,6 +12,7 @@ Sphinx sample project
    :caption: 目次
 
    1.chapter/basic_syntax
+   1.chapter/roles
    2.chapter/directive
    3.chapter/others
    

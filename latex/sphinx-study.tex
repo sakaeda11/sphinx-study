@@ -71,7 +71,7 @@
 
 
 \chapter{This page is about Basic syntax}
-\label{\detokenize{1.chapter/basic_syntax:sphinx-sample-project}}\label{\detokenize{1.chapter/basic_syntax:this-page-is-about-basic-syntax}}\label{\detokenize{1.chapter/basic_syntax::doc}}
+\label{\detokenize{1.chapter/basic_syntax:this-page-is-about-basic-syntax}}\label{\detokenize{1.chapter/basic_syntax::doc}}\label{\detokenize{1.chapter/basic_syntax:sphinx-sample-project}}
 
 \section{Sections}
 \label{\detokenize{1.chapter/basic_syntax:sections}}
@@ -502,6 +502,8 @@ imageを拡張したディレクティブで、キャプションを設定でき
 
 \fvset{hllines={, ,}}%
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{.}\PYG{o}{.} \PYG{n}{\PYGZus{}figure}\PYG{o}{\PYGZhy{}}\PYG{n}{reference}\PYG{p}{:}
+
 \PYG{o}{.}\PYG{o}{.} \PYG{n}{figure}\PYG{p}{:}\PYG{p}{:} \PYG{n}{imgs}\PYG{o}{/}\PYG{n}{sample1}\PYG{o}{.}\PYG{n}{jpg}
    \PYG{p}{:}\PYG{n}{width}\PYG{p}{:} \PYG{l+m+mi}{50} \PYG{o}{\PYGZpc{}}
    \PYG{p}{:}\PYG{n}{alt}\PYG{p}{:} \PYG{n+nb}{map} \PYG{n}{to} \PYG{n}{buried} \PYG{n}{treasure}
@@ -516,7 +518,7 @@ imageを拡張したディレクティブで、キャプションを設定でき
 \capstart
 
 \noindent\sphinxincludegraphics[width=0.500\linewidth]{{sample1}.jpg}
-\caption{This is the caption of the figure (a simple paragraph).}\label{\detokenize{1.chapter/basic_syntax:id7}}\end{figure}
+\caption{This is the caption of the figure (a simple paragraph).}\label{\detokenize{1.chapter/basic_syntax:figure-reference}}\label{\detokenize{1.chapter/basic_syntax:id7}}\end{figure}
 
 
 \section{Footnotes}
@@ -580,8 +582,240 @@ PDF生成ではそれらしい感じになりますが、HTML生成での利用�
 \end{sphinxadmonition}
 
 
+\chapter{This page is about Roles}
+\label{\detokenize{1.chapter/roles:this-page-is-about-roles}}\label{\detokenize{1.chapter/roles::doc}}\label{\detokenize{1.chapter/roles:sample-target}}
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+:rolename:{}`content{}`
+\end{sphinxVerbatim}
+
+のように記述しrole名によって定められた意味・修飾を \sphinxstylestrong{content} に対して行う。
+\begin{itemize}
+\item {} \begin{description}
+\item[{注意}] \leavevmode\begin{itemize}
+\item {} 
+contentを囲む"{}`"は必須
+
+\item {} 
+:rolename:の後にスペースを入れない
+
+\end{itemize}
+
+\end{description}
+
+\item {} \begin{description}
+\item[{:rolename:を記述せず、{}`content{}`のみ記述した場合はデフォルトのロールとして処理される}] \leavevmode\begin{itemize}
+\item {} 
+デフォルトのロールは:title-reference:となっている模様
+
+\item {} 
+以下のように \sphinxstylestrong{default-role} ディレクティブを利用することでデフォルトロールは変更可能
+
+\end{itemize}
+
+\end{description}
+
+\end{itemize}
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{.}\PYG{o}{.} \PYG{n}{default}\PYG{o}{\PYGZhy{}}\PYG{n}{role}\PYG{p}{:}\PYG{p}{:} \PYG{n}{subscript}
+\end{sphinxVerbatim}
+
+例えば
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+:emphasis:{}`強調{}`
+
+:strong:{}`強調{}`
+
+:literal:{}`リテラル{}`
+
+:subscript:{}`下付き文字{}`
+
+:superscript:{}`上付き文字{}`
+
+:title\PYGZhy{}reference:{}`書籍、定期刊行物などのタイトル{}`
+
+{}`デフォルトのロール{}`
+\end{sphinxVerbatim}
+
+↓
+
+\sphinxstyleemphasis{強調}
+
+\sphinxstylestrong{強調}
+
+\sphinxcode{リテラル}
+
+$_{\text{下付き文字}}$
+
+$^{\text{上付き文字}}$
+
+\sphinxtitleref{書籍、定期刊行物などのタイトル}
+
+\sphinxtitleref{デフォルトのロール}
+
+のようになる
+
+
+\section{Cross-referencing syntax}
+\label{\detokenize{1.chapter/roles:cross-referencing-syntax}}
+
+\subsection{ref}
+\label{\detokenize{1.chapter/roles:ref}}
+ドキュメント内の自由な位置に対してクロスリファレンス(リンク)を作成できます。
+\begin{itemize}
+\item {} 
+refによるクロスリファレンスの記法は2通りあります。
+
+\end{itemize}
+
+記法1:
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+.. \PYGZus{}my\PYGZhy{}reference\PYGZhy{}label:
+
+Section to cross\PYGZhy{}reference
+\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}
+
+This is the text of the section.
+
+.. \PYGZus{}my\PYGZhy{}figure:
+
+.. figure:: whatever
+
+   Figure caption
+
+It refers to the section itself, see :ref:{}`my\PYGZhy{}reference\PYGZhy{}label{}`.
+\end{sphinxVerbatim}
+\begin{itemize}
+\item {} 
+セクションのタイトルの直前や、図の直前にラベルを記述し、:ref:{}`label-name{}`と記述する方法です。
+
+\item {} 
+ラベルはユニークである必要があります
+
+\item {} 
+ラベルは\_(アンダースコア)で始まる必要があります。
+
+\end{itemize}
+
+記法2:
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+:ref:{}`Link title \PYGZlt{}sample\PYGZhy{}target\PYGZgt{}{}`
+\end{sphinxVerbatim}
+\begin{itemize}
+\item {} 
+このようにラベル名を別名にすることもできます。
+
+\end{itemize}
+
+
+\subsubsection{refの例}
+\label{\detokenize{1.chapter/roles:id1}}
+{\hyperref[\detokenize{1.chapter/roles:sample-target}]{\sphinxcrossref{\DUrole{std,std-ref}{This page is about Roles}}}}
+
+{\hyperref[\detokenize{1.chapter/basic_syntax:figure-reference}]{\sphinxcrossref{\DUrole{std,std-ref}{This is the caption of the figure (a simple paragraph).}}}}
+
+{\hyperref[\detokenize{1.chapter/roles:sample-target}]{\sphinxcrossref{\DUrole{std,std-ref}{Link title}}}}
+
+
+\subsection{any}
+\label{\detokenize{1.chapter/roles:any}}
+anyというロールは、最初に標準のクロスリファレンス doc, ref, option として解釈できるか試し、
+それで見つからなければ使われている全てのドメインのオブジェクト(ターゲット)に参照できるか試します。
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+:any:{}`sample\PYGZhy{}target{}`
+\end{sphinxVerbatim}
+
+↓
+
+{\hyperref[\detokenize{1.chapter/roles:sample-target}]{\sphinxcrossref{\DUrole{std,std-ref,std,std-ref}{This page is about Roles}}}}
+
+便利ですが、明示的にrefなどを利用した方が良いように思います。
+
+
+\section{Others}
+\label{\detokenize{1.chapter/roles:others}}
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+Since Pythagoras, we know that :math:{}`a\PYGZca{}2 + b\PYGZca{}2 = c\PYGZca{}2{}`.
+
+:abbr:{}`LIFO (last\PYGZhy{}in, first\PYGZhy{}out){}`
+
+:command:{}`cp abc.txt def.txt{}`
+
+:dfn:{}`abc ABC 123 あいう{}`
+
+is installed in :file:{}`/usr/lib/python2.\PYGZob{}x\PYGZcb{}/site\PYGZhy{}packages{}`
+
+:guilabel:{}`\PYGZam{}Cancel{}`
+
+:kbd:{}`Control\PYGZhy{}x Control\PYGZhy{}f{}`
+
+:mailheader:{}`Content\PYGZhy{}Type{}`
+
+:make:{}`abc{}`
+
+:manpage:{}`ls(1){}`
+
+:menuselection:{}`Start \PYGZhy{}\PYGZhy{}\PYGZgt{} Programs{}`
+
+:program:{}`example.exe{}`
+
+:regexp:{}`[0\PYGZhy{}9a\PYGZhy{}z].{}`
+
+:samp:{}`print 1+\PYGZob{}variable\PYGZcb{}{}`
+
+:pep:{}`8\PYGZsh{}id15{}`
+
+:rfc:{}`3986\PYGZsh{}section\PYGZhy{}2{}`
+\end{sphinxVerbatim}
+
+↓
+
+Since Pythagoras, we know that .
+
+\sphinxstyleabbreviation{LIFO} (last-in, first-out)
+
+\sphinxstyleliteralstrong{cp abc.txt def.txt}
+
+\sphinxstyleemphasis{abc ABC 123 あいう}
+
+is installed in \sphinxcode{/usr/lib/python2.\sphinxstyleemphasis{x}/site-packages}
+
+\sphinxmenuselection{\sphinxaccelerator{C}ancel}
+
+\sphinxcode{Control-x Control-f}
+
+\sphinxstyleliteralemphasis{Content-Type}
+
+\sphinxstyleliteralstrong{abc}
+
+\sphinxstyleliteralemphasis{ls(1)}
+
+\sphinxmenuselection{Start \(\rightarrow\) Programs}
+
+\sphinxstyleliteralstrong{example.exe}
+
+\sphinxcode{{[}0-9a-z{]}.}
+
+\sphinxcode{print 1+\sphinxstyleemphasis{variable}}
+
+\index{Python Enhancement Proposals!PEP 8\#id15}\sphinxhref{https://www.python.org/dev/peps/pep-0008\#id15}{\sphinxstylestrong{PEP 8\#id15}}
+
+\index{RFC!RFC 3986\#section-2}\sphinxhref{https://tools.ietf.org/html/rfc3986.html\#section-2}{\sphinxstylestrong{RFC 3986\#section-2}}
+
+
 \chapter{This page is about Directive}
-\label{\detokenize{2.chapter/directive:this-page-is-about-directive}}\label{\detokenize{2.chapter/directive::doc}}
+\label{\detokenize{2.chapter/directive::doc}}\label{\detokenize{2.chapter/directive:this-page-is-about-directive}}
 
 \section{toctree nest}
 \label{\detokenize{2.chapter/directive:toctree-nest}}

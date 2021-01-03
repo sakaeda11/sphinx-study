@@ -306,6 +306,8 @@ imageを拡張したディレクティブで、キャプションを設定でき
 
 ::
 
+   .. _figure-reference:
+
    .. figure:: imgs/sample1.jpg
       :width: 50 %
       :alt: map to buried treasure
@@ -313,6 +315,8 @@ imageを拡張したディレクティブで、キャプションを設定でき
       This is the caption of the figure (a simple paragraph).
 
 ↓
+
+.. _figure-reference:
 
 .. figure:: imgs/sample1.jpg
    :width: 50 %
