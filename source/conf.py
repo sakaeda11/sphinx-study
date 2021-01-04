@@ -31,6 +31,7 @@ release = '1.0.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+  'sphinx.ext.todo',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -85,3 +86,7 @@ from sphinx.locale import admonitionlabels
 
 admonitionlabels['note'] = u'メモ'
 admonitionlabels['warning'] = u'注意'
+
+
+# -- todoディレクティブの有効化 ------------------------------------
+todo_include_todos = True
