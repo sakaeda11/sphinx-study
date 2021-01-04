@@ -4,3 +4,5 @@
 
 source/_build/
 build/
+
+*.mo

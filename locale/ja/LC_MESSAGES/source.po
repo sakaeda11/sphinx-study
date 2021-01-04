@@ -1,0 +1,731 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Junichi Sakaeda
+# This file is distributed under the same license as the sphinx-study
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sphinx-study \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-04 11:10+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../source/1.chapter/basic_syntax.rst:3
+msgid "This page is about Basic syntax"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:7
+msgid "Sections"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:9
+msgid "見出し文字の下に以下の記号文字のいずれかを**見出し文字の数より多く**並べる（アンダーラインとして並べる）ことで、ドキュメントの各セクション（見出し）を作成できます。"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:15
+msgid "これらの内特に以下を利用することが推奨されます。"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:23
+msgid "例::"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:43
+#: ../../source/1.chapter/basic_syntax.rst:77
+#: ../../source/1.chapter/basic_syntax.rst:105
+#: ../../source/1.chapter/basic_syntax.rst:128
+#: ../../source/1.chapter/basic_syntax.rst:154
+#: ../../source/1.chapter/basic_syntax.rst:179
+#: ../../source/1.chapter/basic_syntax.rst:203
+#: ../../source/1.chapter/basic_syntax.rst:235
+#: ../../source/1.chapter/basic_syntax.rst:267
+#: ../../source/1.chapter/basic_syntax.rst:277
+#: ../../source/1.chapter/basic_syntax.rst:294
+#: ../../source/1.chapter/basic_syntax.rst:317
+#: ../../source/1.chapter/basic_syntax.rst:346
+#: ../../source/1.chapter/roles.rst:42 ../../source/1.chapter/roles.rst:121
+#: ../../source/1.chapter/roles.rst:168 ../../source/2.chapter/directive.rst:41
+#: ../../source/2.chapter/directive.rst:60
+#: ../../source/2.chapter/directive.rst:89
+#: ../../source/2.chapter/directive.rst:111
+msgid "↓"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:62
+msgid "List"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:79
+msgid "This is a bulleted list."
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:80
+msgid "It has two items, the second item uses two lines."
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:83
+#: ../../source/1.chapter/basic_syntax.rst:86
+msgid "This is a numbered list."
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:84
+#: ../../source/1.chapter/basic_syntax.rst:87
+msgid "It has two items too."
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:92
+msgid "Literal blocks"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:107
+msgid "This is a normal text paragraph. The next paragraph is a code sample::"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:114
+msgid "This is a normal text paragraph again."
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:119
+msgid "Doctest blocks"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:126
+msgid "のように **>>>** と記述するとデコレーションされます"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:135
+msgid "Tables"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:137
+msgid "テーブルの表記方法にはいくつかあります。"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:141
+msgid "グリッドテーブル表記"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:157
+msgid "Header row, column 1 (header rows optional)"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:157
+msgid "Header 2"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:157
+msgid "Header 3"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:157
+msgid "Header 4"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:160
+msgid "body row 1, column 1"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:160
+msgid "column 2"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:160
+msgid "column 3"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:160
+msgid "column 4"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:162
+msgid "body row 2"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:162
+msgid "..."
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:166
+msgid "シンプルテーブル表記"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:182
+msgid "A"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:182
+msgid "B"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:182
+msgid "A and B"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:184
+#: ../../source/1.chapter/basic_syntax.rst:185
+#: ../../source/1.chapter/basic_syntax.rst:186
+msgid "False"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:185
+#: ../../source/1.chapter/basic_syntax.rst:186
+#: ../../source/1.chapter/basic_syntax.rst:187
+msgid "True"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:192
+msgid "csv-tableディレクティブ表記"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:1
+msgid "AAA"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:1
+msgid "BBB"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:1
+msgid "CCC"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:1
+msgid "a"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:1
+msgid "b"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:1
+msgid "c"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:1
+msgid "1"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:1
+msgid "2"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:1
+msgid "3"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:213
+msgid "list-tableディレクティブ表記"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:237
+msgid "Frozen Delights!"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:241
+msgid "Treat"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:242
+msgid "Quantity"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:243
+msgid "Description"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:244
+msgid "Albatross"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:245
+msgid "2.99"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:246
+#: ../../source/1.chapter/basic_syntax.rst:253
+msgid "On a stick!"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:247
+msgid "Crunchy Frog"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:248
+msgid "1.49"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:249
+msgid "If we took the bones out, it wouldn't be crunchy, now would it?"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:251
+msgid "Gannet Ripple"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:252
+msgid "1.99"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:257
+msgid "Hyperlinks"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:259
+msgid "リンクの書き方は主に2つあります"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:269
+msgid "This is a paragraph that contains `a link`_."
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:279
+msgid "`Link text <https://domain.invalid/>`_"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:283
+msgid "Images"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:285
+msgid ""
+"画像を利用したい場合はimageディレクティブを利用します。 "
+"画像の場所は、該当のrstファイルからの相対パスと、トップのソースディレクトリからの絶対パスのいずれも利用できます。"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:303
+msgid "Figure"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:305
+msgid "imageを拡張したディレクティブで、キャプションを設定できます"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:325
+msgid "This is the caption of the figure (a simple paragraph)."
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:332
+msgid "Footnotes"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:334
+msgid "\\[\\#name\\]\\_ と  .. [#name]　を書くことで脚注を記述できます"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:335
+msgid "nameは省略しても良いです。(\\[\\#\\]\\_だけでも可で、自動採番されます。)"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:336
+msgid "#ではなく数字をそのまま記述しても良いです。"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:348
+msgid "Lorem ipsum [#f1]_ dolor sit amet ... [#f2]_"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:350
+msgid "Text of the first footnote."
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:351
+msgid "Text of the second footnote."
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:354
+msgid ""
+"html生成時は **rubric** "
+"ディレクティブを書く事で脚注についてそれらしい整形がされますが、PDF生成時は変な感じになるので書かない方が良さそうです。"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:359
+msgid "Citations"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:361
+msgid "引用、参考文献の記述方法です。"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:362
+msgid "書き方はFootnote(脚注)と似ています。"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:363
+msgid ""
+"このように [参考文献名ABC]_ "
+"(\\[参考文献名ABC]\\_)と、それに対応するディレクティブを以下のように書いておくと、自動的に参考文献ページが巻末に生成されます。"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:369
+msgid "2020 CDE著 FGH文庫"
+msgstr ""
+
+#: ../../source/1.chapter/basic_syntax.rst:371
+msgid "PDF生成ではそれらしい感じになりますが、HTML生成での利用はおすすめしません。"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:5
+msgid "This page is about Roles"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:11
+msgid "のように記述しrole名によって定められた意味・修飾を **content** に対して行う。"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:14
+msgid "注意"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:14
+msgid "contentを囲む\"\\`\"は必須"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:15
+msgid "\\:rolename\\:の後にスペースを入れない"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:18
+msgid "\\:rolename\\:を記述せず、\\`content\\`のみ記述した場合はデフォルトのロールとして処理される"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:17
+msgid "デフォルトのロールは\\:title-reference\\:となっている模様"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:18
+msgid "以下のように **default-role** ディレクティブを利用することでデフォルトロールは変更可能"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:24
+msgid "例えば"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:44
+msgid ":emphasis:`強調`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:46
+msgid ":strong:`強調`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:48
+msgid ":literal:`リテラル`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:50
+msgid ":subscript:`下付き文字`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:52
+msgid ":superscript:`上付き文字`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:54
+msgid ":title-reference:`書籍、定期刊行物などのタイトル`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:56
+msgid "`デフォルトのロール`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:58
+msgid "のようになる"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:62
+msgid "Cross-referencing syntax"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:66
+msgid "ref"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:67
+msgid "ドキュメント内の自由な位置に対してクロスリファレンス(リンク)を作成できます。"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:69
+msgid "refによるクロスリファレンスの記法は2通りあります。"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:72
+msgid "記法1::"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:89
+msgid "セクションのタイトルの直前や、図の直前にラベルを記述し、\\:ref\\:\\`label-name\\`と記述する方法です。"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:90
+msgid "ラベルはユニークである必要があります"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:91
+msgid "ラベルは\\_(アンダースコア)で始まる必要があります。"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:93
+msgid "記法2::"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:97
+msgid "このようにラベル名を別名にすることもできます。"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:101
+msgid "refの例"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:103
+msgid ":ref:`sample-target`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:105
+msgid ":ref:`figure-reference`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:107
+msgid ":ref:`Link title <sample-target>`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:112
+msgid "any"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:114
+msgid ""
+"anyというロールは、最初に標準のクロスリファレンス doc, ref, option として解釈できるか試し、 "
+"それで見つからなければ使われている全てのドメインのオブジェクト(ターゲット)に参照できるか試します。"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:123
+msgid ":any:`sample-target`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:126
+msgid "便利ですが、明示的にrefなどを利用した方が良いように思います。"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:131 ../../source/3.chapter/others.rst:3
+msgid "Others"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:170
+msgid "Since Pythagoras, we know that :math:`a^2 + b^2 = c^2`."
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:172
+msgid ":abbr:`LIFO (last-in, first-out)`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:174
+msgid ":command:`cp abc.txt def.txt`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:176
+msgid ":dfn:`abc ABC 123 あいう`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:178
+msgid "is installed in :file:`/usr/lib/python2.{x}/site-packages`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:180
+msgid ":guilabel:`&Cancel`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:182
+msgid ":kbd:`Control-x Control-f`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:184
+msgid ":mailheader:`Content-Type`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:186
+msgid ":makevar:`abc`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:188
+msgid ":manpage:`ls(1)`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:190
+msgid ":menuselection:`Start --> Programs`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:192
+msgid ":program:`example.exe`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:194
+msgid ":regexp:`[0-9a-z].`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:196
+msgid ":samp:`print 1+{variable}`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:198
+msgid ":pep:`8#id15`"
+msgstr ""
+
+#: ../../source/1.chapter/roles.rst:200
+msgid ":rfc:`3986#section-2`"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:11
+msgid "AAA BBB CCC"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:3
+msgid "This page is about Directive"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:7
+msgid "toctree nest"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:9
+msgid "toctreeは入れ子にすることができます。"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:18
+msgid "note"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:22
+msgid "\".. note::\"というディレクティブを記述した場合このようになります。"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:26
+msgid "warning"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:29
+msgid "\".. warning::\"というディレクティブを記述した場合このようになります。"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:33
+msgid "admonition"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:43
+msgid "テストです"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:45
+msgid "あいうえお"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:50
+msgid "math"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:52
+msgid "数学記号を記載したい場合"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:62
+msgid "(a + b)^2 = a^2 + 2ab + b^2"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:69
+msgid "todo"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:70
+msgid "conf.pyに以下の設定をした上で利用できます。"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:72 ../../source/3.chapter/others.rst:12
+#: ../../source/3.chapter/others.rst:24
+msgid "conf.py::"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:91
+#: ../../source/2.chapter/directive.rst:94
+msgid "課題"
+msgstr "TODO"
+
+#: ../../source/2.chapter/directive.rst:91
+msgid "なにかしらのTODO1"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:96
+msgid "なにかしらのTODO2"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:102
+msgid "todolist"
+msgstr ""
+
+#: ../../source/2.chapter/directive.rst:104
+msgid "ドキュメント全体からtodoを探してリストアップしてくれます。"
+msgstr ""
+
+#: ../../source/2.chapter/subpage/sub1.rst:2
+#: ../../source/2.chapter/subpage/sub2.rst:2
+msgid "This is Sub page 1"
+msgstr ""
+
+#: ../../source/3.chapter/others.rst:7
+msgid "図表の自動入力文字の変更"
+msgstr ""
+
+#: ../../source/3.chapter/others.rst:9
+msgid "figureディレクティブの **図** のようにSphinxが自動的に埋め込む文字を変更したい場合"
+msgstr ""
+
+#: ../../source/3.chapter/others.rst:19
+msgid "warning,note,tipsなどの自動入力文字の変更"
+msgstr ""
+
+#: ../../source/3.chapter/others.rst:21
+msgid ""
+"warning,note,tipsなどの自動入力文字を変更したい場合の正しい方法は不明ですが、 "
+"conf.py上でパラメータ上書きすると変更できるようです。"
+msgstr ""
+
+#: ../../source/3.chapter/others.rst:31
+msgid ""
+"`参考：teratail Sphinx文書のadmonitionカスタマイズ "
+"<https://teratail.com/questions/91499>`_"
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "目次"
+msgstr ""
+
+#: ../../source/index.rst:2
+msgid "Sphinx sample project"
+msgstr ""
+
+#: ../../source/index.rst:4
+msgid "このドキュメントは、ドキュメント生成ツールSphinxのサンプルです。"
+msgstr ""
+
+#: ../../source/index.rst:8
+msgid "詳しくは以下のQiita記事やGithubレポジトリを参照して下さい"
+msgstr ""
+
+#: ../../source/index.rst:7
+msgid ""
+"`Qiita: Sphinx & reStructuredText入門 "
+"<https://qiita.com/sakaeda11/items/29b96daa58498656e9b5>`_"
+msgstr ""
+
+#: ../../source/index.rst:8
+msgid ""
+"`Github: sakaeda11/sphinx-study <https://github.com/sakaeda11/sphinx-"
+"study>`_"
+msgstr ""
+
