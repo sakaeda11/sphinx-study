@@ -27,8 +27,10 @@
 \contentsline {section}{\numberline {3.3}warning}{14}{section.3.3}
 \contentsline {section}{\numberline {3.4}admonition}{14}{section.3.4}
 \contentsline {section}{\numberline {3.5}math}{15}{section.3.5}
-\contentsline {chapter}{\numberline {第4章}Others}{16}{chapter.4}
-\contentsline {section}{\numberline {4.1}図表の自動入力文字の変更}{16}{section.4.1}
-\contentsline {section}{\numberline {4.2}warning,note,tipsなどの自動入力文字の変更}{16}{section.4.2}
-\contentsline {chapter}{参考文献}{17}{chapter*.5}
-\contentsline {chapter}{索引}{19}{section*.7}
+\contentsline {section}{\numberline {3.6}todo}{15}{section.3.6}
+\contentsline {section}{\numberline {3.7}todolist}{16}{section.3.7}
+\contentsline {chapter}{\numberline {第4章}Others}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}図表の自動入力文字の変更}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}warning,note,tipsなどの自動入力文字の変更}{17}{section.4.2}
+\contentsline {chapter}{参考文献}{19}{chapter*.5}
+\contentsline {chapter}{索引}{21}{section*.7}

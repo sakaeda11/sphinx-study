@@ -71,7 +71,7 @@
 
 
 \chapter{This page is about Basic syntax}
-\label{\detokenize{1.chapter/basic_syntax:this-page-is-about-basic-syntax}}\label{\detokenize{1.chapter/basic_syntax::doc}}\label{\detokenize{1.chapter/basic_syntax:sphinx-sample-project}}
+\label{\detokenize{1.chapter/basic_syntax:this-page-is-about-basic-syntax}}\label{\detokenize{1.chapter/basic_syntax:sphinx-sample-project}}\label{\detokenize{1.chapter/basic_syntax::doc}}
 
 \section{Sections}
 \label{\detokenize{1.chapter/basic_syntax:sections}}
@@ -583,7 +583,7 @@ PDF生成ではそれらしい感じになりますが、HTML生成での利用�
 
 
 \chapter{This page is about Roles}
-\label{\detokenize{1.chapter/roles:this-page-is-about-roles}}\label{\detokenize{1.chapter/roles::doc}}\label{\detokenize{1.chapter/roles:sample-target}}
+\label{\detokenize{1.chapter/roles:sample-target}}\label{\detokenize{1.chapter/roles:this-page-is-about-roles}}\label{\detokenize{1.chapter/roles::doc}}
 \fvset{hllines={, ,}}%
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 :rolename:{}`content{}`
@@ -815,7 +815,7 @@ is installed in \sphinxcode{/usr/lib/python2.\sphinxstyleemphasis{x}/site-packag
 
 
 \chapter{This page is about Directive}
-\label{\detokenize{2.chapter/directive::doc}}\label{\detokenize{2.chapter/directive:this-page-is-about-directive}}
+\label{\detokenize{2.chapter/directive:this-page-is-about-directive}}\label{\detokenize{2.chapter/directive::doc}}
 
 \section{toctree nest}
 \label{\detokenize{2.chapter/directive:toctree-nest}}
@@ -823,10 +823,10 @@ toctreeは入れ子にすることができます。
 
 
 \subsection{This is Sub page 1}
-\label{\detokenize{2.chapter/subpage/sub1:this-is-sub-page-1}}\label{\detokenize{2.chapter/subpage/sub1::doc}}
+\label{\detokenize{2.chapter/subpage/sub1::doc}}\label{\detokenize{2.chapter/subpage/sub1:this-is-sub-page-1}}
 
 \subsection{This is Sub page 1}
-\label{\detokenize{2.chapter/subpage/sub2:this-is-sub-page-1}}\label{\detokenize{2.chapter/subpage/sub2::doc}}
+\label{\detokenize{2.chapter/subpage/sub2::doc}}\label{\detokenize{2.chapter/subpage/sub2:this-is-sub-page-1}}
 
 \section{note}
 \label{\detokenize{2.chapter/directive:note}}
@@ -873,8 +873,68 @@ toctreeは入れ子にすることができます。
 ↓
 
 
+\section{todo}
+\label{\detokenize{2.chapter/directive:todo}}
+conf.pyに以下の設定をした上で利用できます。
+
+conf.py:
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{n}{extensions} \PYG{o}{=} \PYG{p}{[}
+\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{sphinx.ext.todo}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,}
+\PYG{p}{]}
+
+\PYG{n}{todo\PYGZus{}include\PYGZus{}todos} \PYG{o}{=} \PYG{k+kc}{True}
+\end{sphinxVerbatim}
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{.}\PYG{o}{.} \PYG{n}{todo}\PYG{p}{:}\PYG{p}{:} \PYG{n}{なにかしらのTODO1}
+
+
+\PYG{o}{.}\PYG{o}{.} \PYG{n}{todo}\PYG{p}{:}\PYG{p}{:}
+
+   \PYG{n}{なにかしらのTODO2}
+\end{sphinxVerbatim}
+
+↓
+
+\begin{sphinxadmonition}{note}{\label{2.chapter/directive:index-0}課題:}
+なにかしらのTODO1
+\end{sphinxadmonition}
+
+\begin{sphinxadmonition}{note}{\label{2.chapter/directive:index-1}課題:}
+なにかしらのTODO2
+\end{sphinxadmonition}
+
+
+\section{todolist}
+\label{\detokenize{2.chapter/directive:todolist}}
+ドキュメント全体からtodoを探してリストアップしてくれます。
+
+\fvset{hllines={, ,}}%
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{.}\PYG{o}{.} \PYG{n}{todolist}\PYG{p}{:}\PYG{p}{:}
+\end{sphinxVerbatim}
+
+↓
+
+\begin{sphinxadmonition}{note}{課題:}
+なにかしらのTODO1
+\end{sphinxadmonition}
+
+({\hyperref[\detokenize{2.chapter/directive:index-0}]{\sphinxcrossref{\sphinxstyleemphasis{元のエントリ}}}} は、 /home/runner/work/sphinx-study/sphinx-study/source/2.chapter/directive.rst の 91 行目です)
+
+\begin{sphinxadmonition}{note}{課題:}
+なにかしらのTODO2
+\end{sphinxadmonition}
+
+({\hyperref[\detokenize{2.chapter/directive:index-1}]{\sphinxcrossref{\sphinxstyleemphasis{元のエントリ}}}} は、 /home/runner/work/sphinx-study/sphinx-study/source/2.chapter/directive.rst の 94 行目です)
+
+
 \chapter{Others}
-\label{\detokenize{3.chapter/others:others}}\label{\detokenize{3.chapter/others::doc}}
+\label{\detokenize{3.chapter/others::doc}}\label{\detokenize{3.chapter/others:others}}
 
 \section{図表の自動入力文字の変更}
 \label{\detokenize{3.chapter/others:id1}}

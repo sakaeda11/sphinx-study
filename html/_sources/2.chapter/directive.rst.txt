@@ -62,3 +62,52 @@ math
 .. math::
 
    (a + b)^2 = a^2 + 2ab + b^2
+
+
+**********
+todo
+**********
+conf.pyに以下の設定をした上で利用できます。
+
+conf.py::
+
+   extensions = [
+   'sphinx.ext.todo',
+   ]
+
+   todo_include_todos = True
+
+::
+
+   .. todo:: なにかしらのTODO1
+
+
+   .. todo:: 
+
+      なにかしらのTODO2
+
+↓
+
+.. todo:: なにかしらのTODO1
+
+
+.. todo:: 
+
+   なにかしらのTODO2
+
+
+
+************
+todolist
+************
+
+ドキュメント全体からtodoを探してリストアップしてくれます。
+
+
+::
+
+  .. todolist::
+
+↓
+
+.. todolist::

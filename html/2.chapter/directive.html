@@ -89,6 +89,53 @@
 </div>
 <p>↓</p>
 </div>
+<div class="section" id="todo">
+<h2>todo<a class="headerlink" href="#todo" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>conf.pyに以下の設定をした上で利用できます。</p>
+<p>conf.py:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span>
+<span class="s1">&#39;sphinx.ext.todo&#39;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="n">todo_include_todos</span> <span class="o">=</span> <span class="kc">True</span>
+</pre></div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">todo</span><span class="p">::</span> <span class="n">なにかしらのTODO1</span>
+
+
+<span class="o">..</span> <span class="n">todo</span><span class="p">::</span>
+
+   <span class="n">なにかしらのTODO2</span>
+</pre></div>
+</div>
+<p>↓</p>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">課題</p>
+<p class="last">なにかしらのTODO1</p>
+</div>
+<div class="admonition-todo admonition" id="index-1">
+<p class="first admonition-title">課題</p>
+<p class="last">なにかしらのTODO2</p>
+</div>
+</div>
+<div class="section" id="todolist">
+<h2>todolist<a class="headerlink" href="#todolist" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>ドキュメント全体からtodoを探してリストアップしてくれます。</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">todolist</span><span class="p">::</span>
+</pre></div>
+</div>
+<p>↓</p>
+<div class="admonition-todo admonition">
+<p class="first admonition-title">課題</p>
+<p class="last">なにかしらのTODO1</p>
+</div>
+<p class="todo-source">(<a class="reference internal" href="#index-0"><em>元のエントリ</em></a> は、 /home/runner/work/sphinx-study/sphinx-study/source/2.chapter/directive.rst の 91 行目です)</p>
+<div class="admonition-todo admonition">
+<p class="first admonition-title">課題</p>
+<p class="last">なにかしらのTODO2</p>
+</div>
+<p class="todo-source">(<a class="reference internal" href="#index-1"><em>元のエントリ</em></a> は、 /home/runner/work/sphinx-study/sphinx-study/source/2.chapter/directive.rst の 94 行目です)</p>
+</div>
 </div>
 
 
@@ -105,6 +152,8 @@
 <li><a class="reference internal" href="#warning">warning</a></li>
 <li><a class="reference internal" href="#admonition">admonition</a></li>
 <li><a class="reference internal" href="#math">math</a></li>
+<li><a class="reference internal" href="#todo">todo</a></li>
+<li><a class="reference internal" href="#todolist">todolist</a></li>
 </ul>
 </li>
 </ul>
