@@ -18,7 +18,7 @@ make html
 3. See the result
 
 - pdf:[sphinx-study.pdf](https://sakaeda11.github.io/sphinx-study/latex/sphinx-study.pdf)
-- html:[index.html](https://sakaeda11.github.io/sphinx-study/html/)
+- html:[index.html](https://sakaeda11.github.io/sphinx-study/html/source/)
 
 # 参考
 
